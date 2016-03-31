@@ -88,7 +88,7 @@ h6 {
 
 /* PARAGPRAHS */
 p {
-  margin-bottom: 2em;
+  margin-bottom: 1.25em;
 }
 
 /* LINKS */
@@ -142,9 +142,14 @@ body{
 
 .container {
   position: relative;
-  width: 64.375em; /* 940px / 16px = 58.75em */
+  width: 62.5em; /* 940px / 16px = 58.75em */
   margin: 0 auto;
 }
+
+
+
+
+
 
 
 /*MAIN NAV=====================================*/
@@ -152,6 +157,7 @@ header {
 text-align: left;
 position:relative;
 background: #363a3b;
+
 }
 
 .mainnav li{
@@ -161,11 +167,11 @@ display: inline-block;
 padding: 60px 70px 15px 0;
 }
 
-.mainnav li:nth-child(1) {
+.mainnav li:nth-child(1){
 padding-left: 50px;
 }
 
-.mainnav li:nth-child(4) {
+.mainnav li:nth-child(4){
 padding-left: 204px;}
 
 .mainnav li:nth-child(5){
@@ -183,17 +189,56 @@ width: 130px;
 height: 75px;
 position: absolute;
 top: 10px;
-left: 430px;
+left: 420px;
 }
 
-/*SEARCH BAR*/
+/*SEARCH BAR----------------------------------------------------------*/
+
+input[type="text"] {
+    background-color: #605f5f;
+    border: none;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 9px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #bebebe;
+    width: 110px;
+    padding: 6px 30px 6px 1px;
+    border-radius: 10px;
+    position: absolute;
+    top:15px;
+    right:65px;
+    }
+
+/*search icon*/
+.button-search{
+  position: absolute;
+  top:17px;
+  right: 75px;
+}
+
+
+
+/*SECTION01-----------------------------------------------------*/
+.head-typo p {
+  color: #333;/* #fff  able when insert Slideshow*/
+  text-align: center;
+  font-size: 3.9375em;
+  font-weight: bolder ;
+  text-transform: uppercase;
+  padding-top: 187px;
+}
+
+.head-typo a{
+  color: #333;/* #fff  able when insert Slideshow*/
+  text-transform: uppercase;
+  font-size: 1.875em;
+  font-weight: bold;
+  border:2px solid #333;
+  padding: 6px 10px;
+  margin-left: 400px;
 
 
 
 
-
-
-
-
-
-/*MAIN NAV=====================================*/
+}
