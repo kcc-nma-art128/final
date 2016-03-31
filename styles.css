@@ -44,12 +44,13 @@ header, section, footer, aside, nav, article, figure {
 	display: block;
 }
 
+
 /* #BASE TYPOGRAPHY
 ================================================== */
 
 /* #BODY */
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 100%; /* 1em = 16px */
 	line-height: 1.5em; /* 16px x 1.5em = 24px */
 	color: #333;
@@ -176,8 +177,9 @@ site-specific styles here.
 ===================================== */
 
 body {
-	background: #ddd;
+	background: #fff;
 }
+
 
 /* SITE-SPECIFIC TYPOGRAPHY
 Description: Adjust the base typography settings above
@@ -204,6 +206,37 @@ Description: Style major site sections here.
 (e.g. header, navs/navigation, site-specific content sections,
 asides, sidebars, footer, sub page-specific styling, etc.)
 ===================================== */
+
+.nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  clear: both;
+}
+
+
+.nav ul li {
+  text-transform: uppercase;
+  display: inline-block;
+  clear: both;
+  margin-top: 4em;
+}
+
+.nav img {
+  max-width: 100%;
+  float: left;
+  clear: both;
+  margin: 0.5em;
+}
+
+.header img {
+  width: 100%;
+  clear: both;
+}
+
+h1 {
+  font-size: 2em;
+}
 
 
 /* MEDIA QUERIES
@@ -238,6 +271,17 @@ Description: Define screen-size breakpoints here.
 		margin: 3%;
 		padding: 5%;
 	}
+
+  .nav img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav ul li {
+    display: block;
+    text-align: center;
+    margin: 0.5em;
+  }
 
 }
 
