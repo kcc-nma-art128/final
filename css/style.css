@@ -40,7 +40,6 @@ body {
 }
 
 /* #HEADINGS */
-
 h1, h2, h3, h4, h5, h6 {
 	margin-bottom: .5em;
 }
@@ -77,13 +76,19 @@ h6 {
 
 /* #Paragraphs */
 p {
-	margin-bottom: .5em;
+	margin-bottom: 2em;
 }
 
 
 /* #Links */
-a { color: #39c; text-decoration: none; }
-a:visited, a:hover, a:focus { color: #069; }
+a {
+	color: #b82222;
+	text-decoration: none;
+}
+
+a:visited, a:hover, a:focus {
+	color: #069;
+}
 
 
 /* #Lists */
@@ -118,24 +123,32 @@ a img {
   clear: both;
 }
 
-/* SITE-SPECIFIC CSS (Site-Specific Design)
-Description: "Site-specific" css is where all
-site-specific visual design styles. Site-specific
-css should be placed on the bottom to
-override any base styling above it.
- */
+/* SITE-SPECIFIC CSS */
+body {
+	background: #211a17;
+}
 
-/* LAYOUT/GRID */
 .container {
 	/* Fixed width: 960px */
     width: 50em; /* 960px / 16px (base) = 60em - (5em padding x 2) = 50em */
 	margin: 2em auto;
-	padding: 5em;
-	background: #fff;
+	padding: 0;
+	background: #b82222;
+}
+
+/* LAYOUT/GRID */
+.section01 {
+
+}
+
+.section02 {
+
 }
 
 /* HEADER */
+.header {
 
+}
 
 /* MEDIA QUERIES
 Description: Define screen-size breakpoints here.
