@@ -133,16 +133,25 @@ body {
     width: 50em; /* 960px / 16px (base) = 60em - (5em padding x 2) = 50em */
 	margin: 2em auto;
 	padding: 0;
-	background: #b82222;
 }
 
 /* LAYOUT/GRID */
 .section01 {
-
+	width: 50%;
+	float: left;
+	margin: 0;
 }
 
 .section02 {
+	width: 50%;
+	float: left;
+	margin: 0;
+}
 
+.section03 {
+	width: 50%;
+	float: left;
+	margin: 0;
 }
 
 /* HEADER */
