@@ -44,7 +44,7 @@ header, section, footer, aside, article, nav, figure {
 body {
   font-family:'ITCAvantGardeStd-Bk',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-size: 100%; /* 1em = 16px */
-  line-height: 1.5em;
+  line-height: 1.875em;
   color: #333;
 }
 
@@ -221,36 +221,54 @@ input[type="text"] {
 
 
 /*SECTION01-----------------------------------------------------*/
+.section01{
+  background-color: #feefdf;
+  background-image: url(../images/img01.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position:center;
+}
 .head-typo p {
   font-family:'ITCAvantGardeStd-Bold',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-  color: #333;/* #fff  able when insert Slideshow*/
+  color: #fff;
   text-align: center;
   font-size: 3.9375em;
   text-transform: uppercase;
-  padding-top: 187px;
+  padding-top: 230px;
 }
 
 .head-typo a{
-  color: #333;/* #fff  able when insert Slideshow*/
+  font-family:'ITCAvantGardeStd-Bold',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  color: #fff;
   text-transform: uppercase;
   font-size: 1.875em;
-  font-weight: bold;
-  border:4px solid #333;/* #fff  able when insert Slideshow*/
+  border:4px solid #fff;/* #fff  able when insert Slideshow*/
   padding: 10px 12px 0;
   margin-left: 400px;
 
 }
 /*------------------------*/
-.welcome{
-  width: 443px;
+.welcome p{
+  width: 455px;
   padding-left: 300px;
+
 }
 .welcome h3{
   font-family:'ITCAvantGardeStd-Md',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-size: 2.5em;
-
+  color: #b0b601;
+  padding-top: 100px;
+  padding-left: 300px;
+}
+.line01{
+  border-bottom: 1px solid #b1a69b;
+  margin-right: 32%;
+  margin-top:-10px;
+  margin-bottom: 30px;
 }
 
+/*arrow*/
+/*----------------------------*/
 
 
 
@@ -300,30 +318,30 @@ input[type="text"] {
 
 @font-face {
   font-family: 'ITCAvantGardeStd-Bk';
-  src:  url('ITCAvantGardeStd-Bk.otf')  format('opentype'),
-	     url('ITCAvantGardeStd-Bk.woff') format('woff'), url('ITCAvantGardeStd-Bk.ttf')  format('truetype'), url('ITCAvantGardeStd-Bk.svg#ITCAvantGardeStd-Bk') format('svg');
+  src:  url('../fonts/ITCAvantGardeStd-Bk/ITCAvantGardeStd-Bk.otf')  format('opentype'),
+	     url('../fonts/ITCAvantGardeStd-Bk/ITCAvantGardeStd-Bk.woff') format('woff'), url('../fonts/ITCAvantGardeStd-Bk/ITCAvantGardeStd-Bk.ttf')  format('truetype'), url('../fonts/ITCAvantGardeStd-Bk/ITCAvantGardeStd-Bk.svg#ITCAvantGardeStd-Bk') format('svg');
 }
 /*--------------Book Bold----------------*/
 @font-face {
   font-family: 'ITCAvantGardeStd-Bold';
-  src: url('ITCAvantGardeStd-Bold.eot') format('embedded-opentype');
+  src: url('../fonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.eot') format('embedded-opentype');
 }
 
 @font-face {
   font-family: 'ITCAvantGardeStd-Bold';
-  src:  url('ITCAvantGardeStd-Bold.otf')  format('opentype'),
-	     url('ITCAvantGardeStd-Bold.woff')format('woff'), url('ITCAvantGardeStd-Bold.ttf')  format('truetype'), url('ITCAvantGardeStd-Bold.svg#ITCAvantGardeStd-Bold') format('svg');
+  src:  url('../fonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.otf')  format('opentype'),
+	     url('../fonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.woff')format('woff'), url('../fonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.ttf')  format('truetype'), url('../fonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.svg#ITCAvantGardeStd-Bold') format('svg');
 }
 /*--------------Book obl----------- */
 @font-face {
   font-family: 'ITCAvantGardeStd-BkObl';
-  src: url('ITCAvantGardeStd-BkObl.eot')format('embedded-opentype');
+  src: url('../fonts/ITCAvantGardeStd-BkObl/ITCAvantGardeStd-BkObl.eot')format('embedded-opentype');
 }
 
 @font-face {
   font-family: 'ITCAvantGardeStd-BkObl';
-  src:  url('ITCAvantGardeStd-BkObl.otf')  format('opentype'),
-	     url('ITCAvantGardeStd-BkObl.woff')format('woff'), url('ITCAvantGardeStd-BkObl.ttf')  format('truetype'), url('ITCAvantGardeStd-BkObl.svg#ITCAvantGardeStd-BkObl') format('svg');
+  src:  url('../fonts/ITCAvantGardeStd-BkObl/ITCAvantGardeStd-BkObl.otf')  format('opentype'),
+	     url('../fonts/ITCAvantGardeStd-BkObl/ITCAvantGardeStd-BkObl.woff')format('woff'), url('../fonts/ITCAvantGardeStd-BkObl/ITCAvantGardeStd-BkObl.ttf')  format('truetype'), url('../fonts/ITCAvantGardeStd-BkObl/ITCAvantGardeStd-BkObl.svg#ITCAvantGardeStd-BkObl') format('svg');
 }
 /*--------------Bold condense---------------*/
 @font-face {
@@ -339,45 +357,45 @@ input[type="text"] {
 /*--------------Demi---------------*/
 @font-face {
   font-family: 'ITCAvantGardeStd-Demi';
-  src: url('ITCAvantGardeStd-Demi.eot')format('embedded-opentype');
+  src: url('../fonts/ITCAvantGardeStd-Demi/ITCAvantGardeStd-Demi.eot')format('embedded-opentype');
 }
 
 @font-face {
   font-family: 'ITCAvantGardeStd-Demi';
-  src:  url('ITCAvantGardeStd-Demi.otf')  format('opentype'),
-	     url('ITCAvantGardeStd-Demi.woff')format('woff'), url('ITCAvantGardeStd-Demi.ttf')  format('truetype'), url('ITCAvantGardeStd-Demi.svg#ITCAvantGardeStd-Demi') format('svg');
+  src:  url('../fonts/ITCAvantGardeStd-Demi/ITCAvantGardeStd-Demi.otf')  format('opentype'),
+	     url('../fonts/ITCAvantGardeStd-Demi/ITCAvantGardeStd-Demi.woff')format('woff'), url('../fonts/ITCAvantGardeStd-Demi/ITCAvantGardeStd-Demi.ttf')  format('truetype'), url('../fonts/ITCAvantGardeStd-Demi/ITCAvantGardeStd-Demi.svg#ITCAvantGardeStd-Demi') format('svg');
 }
 
 /*--------------Demi condense---------------*/
 @font-face {
   font-family: 'ITCAvantGardeStd-DemiCn';
-  src: url('ITCAvantGardeStd-DemiCn.eot')format('embedded-opentype');
+  src: url('../fonts/ITCAvantGardeStd-DemiCn/ITCAvantGardeStd-DemiCn.eot')format('embedded-opentype');
 }
 
 @font-face {
   font-family: 'ITCAvantGardeStd-DemiCn';
-  src:  url('ITCAvantGardeStd-DemiCn.otf')  format('opentype'),
-	     url('ITCAvantGardeStd-DemiCn.woff')format('woff'), url('ITCAvantGardeStd-DemiCn.ttf')  format('truetype'), url('ITCAvantGardeStd-DemiCn.svg#ITCAvantGardeStd-DemiCn') format('svg');
+  src:  url('../fonts/ITCAvantGardeStd-DemiCn/ITCAvantGardeStd-DemiCn.otf')  format('opentype'),
+	     url('../fonts/ITCAvantGardeStd-DemiCn/ITCAvantGardeStd-DemiCn.woff')format('woff'), url('../fonts/ITCAvantGardeStd-DemiCn/ITCAvantGardeStd-DemiCn.ttf')  format('truetype'), url('../fonts/ITCAvantGardeStd-DemiCn/ITCAvantGardeStd-DemiCn.svg#ITCAvantGardeStd-DemiCn') format('svg');
 }
 /*--------------medium---------------*/
 @font-face {
   font-family: 'ITCAvantGardeStd-Md';
-  src: url('ITCAvantGardeStd-Md.eot')format('embedded-opentype');
+  src: url('../fonts/ITCAvantGardeStd-Md/ITCAvantGardeStd-Md.eot')format('embedded-opentype');
 }
 
 @font-face {
   font-family: 'ITCAvantGardeStd-Md';
-  src:  url('ITCAvantGardeStd-Md.otf')  format('opentype'),
-	     url('ITCAvantGardeStd-Md.woff')format('woff'), url('ITCAvantGardeStd-Md.ttf')  format('truetype'), url('ITCAvantGardeStd-Md.svg#ITCAvantGardeStd-Md') format('svg');
+  src:  url('../fonts/ITCAvantGardeStd-Md/ITCAvantGardeStd-Md.otf')  format('opentype'),
+	     url('../fonts/ITCAvantGardeStd-Md/ITCAvantGardeStd-Md.woff')format('woff'), url('../fonts/ITCAvantGardeStd-Md/ITCAvantGardeStd-Md.ttf')  format('truetype'), url('../fonts/ITCAvantGardeStd-Md/ITCAvantGardeStd-Md.svg#ITCAvantGardeStd-Md') format('svg');
 }
 /*--------------medium condense---------------*/
 @font-face {
   font-family: 'ITCAvantGardeStd-MdCn';
-  src: url('ITCAvantGardeStd-MdCn.eot')format('embedded-opentype');
+  src: url('../fonts/ITCAvantGardeStd-MdCn/ITCAvantGardeStd-MdCn.eot')format('embedded-opentype');
 }
 
 @font-face {
   font-family: 'ITCAvantGardeStd-MdCn';
-  src:  url('ITCAvantGardeStd-MdCn.otf')  format('opentype'),
-	     url('ITCAvantGardeStd-MdCn.woff')format('woff'), url('ITCAvantGardeStd-MdCn.ttf')  format('truetype'), url('ITCAvantGardeStd-MdCn.svg#ITCAvantGardeStd-Md') format('svg');
+  src:  url('../fonts/ITCAvantGardeStd-MdCn/ITCAvantGardeStd-MdCn.otf')  format('opentype'),
+	     url('../fonts/ITCAvantGardeStd-MdCn/ITCAvantGardeStd-MdCn.woff')format('woff'), url('../fonts/ITCAvantGardeStd-MdCn/ITCAvantGardeStd-MdCn.ttf')  format('truetype'), url('../fonts/ITCAvantGardeStd-MdCn/ITCAvantGardeStd-MdCn.svg#ITCAvantGardeStd-Md') format('svg');
 }
