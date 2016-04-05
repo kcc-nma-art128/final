@@ -215,11 +215,21 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 }
 
 
-.nav ul li {
+.nav ul li a {
   text-transform: uppercase;
-  display: inline-block;
-  clear: both;
-  margin-top: 4em;
+	color: #000;
+  display: inline;
+  float: right;
+	font-size: 1.5em;
+	margin: 0.3em;
+	margin-left: 2em;
+	margin-right: 1em;
+}
+
+.nav ul {
+	margin-left: 40%;
+	margin-top: 3.5em;
+  list-style-type: none;
 }
 
 .nav img {
@@ -232,10 +242,14 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 .header img {
   width: 100%;
   clear: both;
+	padding-top: 7em;
 }
 
-h1 {
-  font-size: 2em;
+.headline h1 {
+  font-size: 4em;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 1em;
 }
 
 
@@ -274,13 +288,18 @@ Description: Define screen-size breakpoints here.
 
   .nav img {
     display: block;
-    margin: 0 auto;
+		margin-top: 2em;
   }
 
-  .nav ul li {
+	.nav ul li a {
+		text-align: center;
+	}
+
+  .nav ul li a {
     display: block;
     text-align: center;
     margin: 0.5em;
+		clear: both;
   }
 
 }
