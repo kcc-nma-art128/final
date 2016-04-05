@@ -252,6 +252,37 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 	margin-top: 1em;
 }
 
+.headline {
+	margin: 3em;
+	padding-top: 2em;
+	text-align: center;
+}
+
+.col-3 {
+	display: inline-block;
+	margin: 1em;
+	width: 30%;
+}
+
+.col-3 img {
+	max-width: 100%;
+}
+
+.col-3 h3 {
+	text-transform: uppercase;
+	font-size: 3em;
+	text-align: center;
+	margin: 0.5em;
+}
+
+.col-3 p {
+	font-style: normal;
+	font-size: 1.5em;
+	text-align: left;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
 
 /* MEDIA QUERIES
 Description: Define screen-size breakpoints here.
@@ -270,6 +301,11 @@ Description: Define screen-size breakpoints here.
 		margin: 4%;
 		padding: 6%;
 	}
+
+	.col-3 {
+		display: block;
+	}
+
 
 }
 
@@ -301,6 +337,18 @@ Description: Define screen-size breakpoints here.
     margin: 0.5em;
 		clear: both;
   }
+
+	.col-3 {
+		display: block;
+	}
+
+	.col-3 img {
+		width: 100%;
+	}
+
+	.col-3 p {
+		margin: 0;
+	}
 
 }
 
