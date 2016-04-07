@@ -15,30 +15,36 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <link  ref="stylesheet" href="css/style.css" type="text/css">
+    <link  rel="stylesheet" href="css/style.css" type="text/css">
 
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <h1 class="logo">
-          <a href="index.html">Kobe</a>
-        </h1>
+        <div class="row">
+          <h1 class="logo">
+            <a href="index.html">Kobe</a>
+          </h1>
+          <nav class="main-nav">
+            <div class="clearfix">
+            <div class="input-group input-group-lg">
+  <span class="input-group-addon" id="sizing-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+</div></div>
+              <ul>
+                <li><a class="active" href=index.html>HOME</a></li>
+                <li><a href="#">HISTORY</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+          </nav>
+        </div>
       </div>
-
 </header>
 
-    <nav class="main-nav row">
-      <div class="container">
-        <ul>
-          <li><a class="active" href=index.html>HOME</a></li>
-          <li><a href="#">HISTORY</a></li>
-          <li><a href="#">MENU</a></li>
-          <li><a href="#">GALLERY</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-      </div>
-    </nav>
+
+
 
     <section class="section01">
       <div class="container">
@@ -79,6 +85,8 @@
     </footer>
 
   <!-- Latest compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
   </body>
