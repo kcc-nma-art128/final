@@ -156,7 +156,52 @@ body {
 
 /* HEADER */
 .header {
+height: 144px;
+background: #000;
+}
 
+.logo {
+	margin 0;
+}
+
+.logo a {
+	display: block;
+	position: absolute;
+	background-image: url('../images/kobesteakhouse-logo.png');
+	width: 250px;
+	padding-top: 31px;
+	overflow
+}
+
+/* MAIN NAV */
+.main-nav {
+	background: #000;
+}
+
+.main-nav ul {
+	margin-bottom: 1em;
+	list-style: none;
+}
+
+.main-nav li {
+	margin: 0;
+	float: left;
+}
+
+.main-nav a{
+	display: block;
+	line-height: 2em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.main-nav a:hover {
+	color: #b82222;
+}
+
+.main-nav a.active {
+	color: #fff;
+	border-bottom: 2px solid #fff;
 }
 
 /* MEDIA QUERIES
