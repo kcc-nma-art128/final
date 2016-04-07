@@ -49,6 +49,10 @@ a:hover, a:active, a:visited{
   text-decoration: underline;
 }
 
+a.active {
+
+}
+
 /* IMAGES */
 .scale-with-grid {
   max-width: 100%;
@@ -74,11 +78,19 @@ a:hover, a:active, a:visited{
 
 
 /* MANNAV */
+.mainnav {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
 .mainnav a:hover {
   color: #d7abac;
 }
 
-.mainnav a:active {
+.mainnav a.active {
   color: #d7abac;
 }
 
@@ -102,6 +114,7 @@ margin-bottom: 10px;
   position: relative;
   top: 80px;
   margin-top: -80px;
+  z-index: 10;
 }
 
 /* HOMEPAGE */
@@ -111,8 +124,17 @@ margin-bottom: 10px;
   height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
-
+.homepage01:after {
+  background: url("../image/navigation-background.png") -0.5px;
+  content: "";
+  width: 100%;
+  height: 47px;
+  position: absolute;
+  bottom: -1px;
+  overflow: hidden;
+}
 .homepage01 .col {
   padding: 300px;
   text-align: center;
@@ -131,7 +153,7 @@ margin-bottom: 10px;
 
 /* FLAVOR */
 .heading h1{
-  margin-top: 40px;
+  margin-top: 100px;
   padding: 50px;
   text-align: center;
   color: #d7abac;
@@ -145,6 +167,11 @@ margin-bottom: 10px;
 .flavor-options li{
   display: inline-block;
   margin: 10px;
+}
+
+.flavor-options a.active {
+  color: #d7abac;
+  text-decoration: underline;
 }
 
 .fruit ul{
@@ -176,3 +203,5 @@ list-style: none;
   width: 25%;
   float: right;
 }
+
+/* ABOUT */
