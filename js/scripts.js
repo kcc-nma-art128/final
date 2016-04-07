@@ -1,8 +1,8 @@
 $(function() {
   var $navToggle = $('.nav-toggle');
-  var $mainNavUl = $('.mainnav ul');
+  var $mainNavUl = $('.mainnav li');
   var $window = $(window);
-  var mobileBreakpoint = 767;
+  var mobileBreakpoint = 768;
 
   $navToggle.on('click', function() {
     $mainNavUl.slideToggle();
@@ -11,8 +11,8 @@ $(function() {
 
   $window.on('resize', function() {
     if ($window.width() > mobileBreakpoint && $mainNavUl.is(':hidden')) {
-      $mainNavUl.removeAttr('style');
-      $navToggle.removeClass('active');
+      $mainNavUl.removeAttr('active');
+      $navToggle.removeClass('style');
     }
   });
 });
