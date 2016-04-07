@@ -37,7 +37,6 @@ h1 {
 	font-size: 1em;
 	line-height: 2em;
 	color: #999;
-	margin: .75em 0;
 	font-weight: normal;
 	text-align: left;
 }
@@ -47,6 +46,7 @@ h2 {
 	text-align: center;
 	font-size: 2.25em;
   line-height: 1.1em;
+	margin-top: 2em;
 }
 
 h3 {
@@ -112,25 +112,24 @@ body {
 .container {
   position: relative;
   width: 56em; /* 960px / 16px = 60em */
-	height: 40em;
+
   padding: 0 .625em;
   margin: 0 auto;
 }
 
-
-nav {
-	text-align: center;
-	color: #999;
+nav h1 {
+	float: left;
+	margin: 3em 0 0 4em;
 }
 
 nav ul {
-	height: 3em;
 	font-size: .75em;
-
+	float: right;
+	margin-top: 4em;
 }
 
 nav ul li a {
-	padding: 1.5em;
+	padding: 1em;
 }
 
 
@@ -139,97 +138,117 @@ nav ul li{
 }
 
 
-
-
-
-
-/* LAYOUT/GRID
-Description: Place grid and visual layout styling here.
-(e.g. containers, rows, columns)
-===================================== */
-
-.header p {
-	color: #999;
+.home {
+	height: 40em;
 }
 
-
-.section1 {
-  text-align: center;
-	padding: 3.4em;
-	background: #ddd;
-	margin-top: 3em;
+.home h2{
+	margin-top: 7em;
+	padding: .5em;
 }
 
-.section1 h2 {
-	font-size: 4.5em;
-	text-transform: none;
+.home h3 {
+	padding: .5em;
 }
 
-.section2 {
-	padding: 2em;
-
+.home h4 {
+	padding: .5em;
 }
 
-.section2 .col-4 {
-  float: left;
-  width: 30%;
-	margin-right: 5%;
+.about h2{
+	margin-top: 2.5em;
 }
 
-.section2 .col-4:last-of-type {
-	margin-right: 0;
-
+.about h3 {
+	font-size: 1.2em;
+	padding: 2em 0 .5em 0;
 }
 
-.section2 .col-4 img {
-	width: 100%;
-	height: auto;
+.about h4 {
+	font-size: .8em;
+	padding: .2em 0 3em 0;
 }
 
-h4.byline {
-	font-size: .625em;
-	line-height: .625em;
-	color: #999;
-	margin: .75em 0;
+.about p{
+	font-size: .9em;
+	text-align: center;
+}
+
+.activity nav {
+	margin-top: 3.5em;
+}
+
+.activity h3{
+	font-size: .9em;
+	float: right;
+	margin: 4em 6em 0 0;
+}
+
+.activity ul{
+	float: right;
+	margin: 7em 0 4em 0;
+}
+
+.activity ul li {
+	padding: .3em;
+	font-size: .85em;
+	display: block
+	float: right;
+}
+
+.activity ul li small {
+	font-size: .8em;
+	display: block;
 	font-weight: normal;
 }
 
-
-.section3 {
-  text-align: center;
-  padding: 1em;
+.location nav {
+	margin-top: 3.5em;
 }
 
-.section3 h2 {
-	border-top: 1px solid #d5d5d5;
-	border-bottom: 1px solid #d5d5d5;
-
+.location ul {
+	float: right;
+	margin: 7em 11em 0 0;
 }
 
-.section3 p {
-	padding: 3em;
-	border-bottom: 1px solid #d5d5d5;
+.location ul li{
+	font-size: 1.3em;
+	padding: .5em;
 }
 
-.section4 .col-6 {
+.location ul li small{
+	padding-top: 2em;
+}
+
+.location h4{
+	float: right;
 	text-align: left;
-	float: left;
-	width: 47%;
-	padding: 2em 4em 0 4em;
-
+	margin: 18em 0 0 10em;
 }
 
-.section4 ul {
-	list-style: none;
-	margin: 0 0 6em 0;
+.location h5{
+	float: right;
+	margin: 3em 13em 4em 0;
 }
 
-.section4 li .fa {
-	float: left;
-	font-size: 3.5em;
-	clear:both;
-	margin-bottom: 1em;
-	margin-right: .5em;
+.contact nav {
+	margin-top: 3.5em;
+}
+
+.contact .col-2{
+	display: inline-block;
+	margin: 3em 0 8em 15.5em;
+}
+
+.contact h3{
+	text-align: left;
+	font-size: 1em;
+	margin-top: 7em;
+}
+
+.contact p{
+	margin-top: 1em;
+	font-size: .8em;
 }
 
 .footer {
