@@ -248,7 +248,7 @@ nav ul li{
 
 .contact p{
 	margin-top: 1em;
-	font-size: .8em;
+	font-size: 1em;
 }
 
 .footer {
@@ -256,33 +256,18 @@ nav ul li{
 	background: #ddd;
 }
 
-.footer .logo {
-	margin: 3em 0;
-	float: left;
-	width: 30%;
+
+.footer p {
+	font-size: 1em;
+	margin: 1.5em 8em 0 0;
+	float: right;
 }
 
 .footer ul {
-	margin: 3em 0 5em 0;
+	display: block;
+	font-size: .8em;
+	margin: 1.5em 8em 0 0;
 	float: right;
-	text-align: right;
-	width: 70%;
-}
-
-
-.footer ul li{
-	list-style: none;
-	display: inline-block;
-	padding-left: 3.2em;
-}
-
-.footer ul li a{
-font-weight: bold;
-}
-
-.footer p {
-	font-size: 0.625em;
-	color: #999;
 }
 
 
