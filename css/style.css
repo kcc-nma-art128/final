@@ -167,7 +167,7 @@ font-family:'ITCAvantGardeStd-Md',Avant Garde, Avantgarde, 'Century Gothic', Cen
 text-transform: uppercase;
 font-size: 0.8825em;
 display: inline-block;
-padding: 60px 50px 15px 0;
+padding: 70px 50px 10px 0;
 }
 
 .mainnav li:nth-child(3){
@@ -427,8 +427,8 @@ right: 25px;
    margin: 20px 0 0 0;
    padding: 0;
    text-align: center;
-   display:block;
- }
+   display: none;
+  }
  .mainnav li:nth-child(3){
    padding: 0;
  }
@@ -439,6 +439,8 @@ right: 25px;
  a.nav-toggle {
    display: block;
  }
+
+
 
  /*-------------section01-------------------*/
 

@@ -10,9 +10,9 @@ $(function() {
   });
 
   $window.on('resize', function() {
-    if ($window.width() > mobileBreakpoint && $mainNavUl.is(':hidden')) {
-      $mainNavUl.removeAttr('active');
-      $navToggle.removeClass('style');
+    if ($window.width() < mobileBreakpoint && $mainNavUl.is(':hidden')) {
+      $mainNavUl.removeAttr('style');
+      $navToggle.removeClass('active');
     }
   });
 });
