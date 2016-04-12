@@ -204,8 +204,8 @@ body{
 }
 .dot {
   cursor:pointer;
-  height: 13px;
-  width: 13px;
+  height: 7px;
+  width: 7px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -372,14 +372,16 @@ input[type="text"] {
 
 /*SECTION01----------------HOME-------------------------------------*/
 .section01{
-  background-image: url(../images/img01.png);
+  background-image: url(../images/bg1.png);
   background-repeat: no-repeat;
   background-size:100%;
   background-position:center;
 }
 .head-typo{
+  width: 900px;
+  padding-left: 50px;
   position: absolute;
-  top: 200px;
+  top:-550px;
 }
 .head-typo p {
   font-family:'ITCAvantGardeStd-Bold',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
@@ -387,7 +389,7 @@ input[type="text"] {
   text-align: center;
   font-size: 3.9375em;
   text-transform: uppercase;
-  padding-top: 230px;
+  margin-bottom: 1em;
 }
 
 .head-typo a{
@@ -397,7 +399,7 @@ input[type="text"] {
   font-size: 1.875em;
   border:4px solid #fff;/* #fff  able when insert Slideshow*/
   padding: 10px 12px 0;
-  margin-left: 400px;
+  margin-left: 35%;
 
 }
 /*----------01B--------------*/
@@ -410,7 +412,7 @@ input[type="text"] {
   font-family:'ITCAvantGardeStd-Md',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-size: 2.5em;
   color: #b0b601;
-  padding-top: 100px;
+  padding-top: 30px;
   padding-left: 300px;
 }
 .line01{
@@ -462,7 +464,15 @@ left: 40%;
 
 /*-------------section01-------------------*/
 .head-typo{
+  width: 90%;
   line-height: 4em;
+  font-size: 90%;
+  top: -400px;
+
+  }
+.head-typo p{
+  margin-bottom: 0.25em;
+
 }
 
 .head-typo a{
@@ -536,9 +546,19 @@ right: 25px;
 
  /*-------------section01-------------------*/
 
-  .head-typo{
+  .head-typo {
+    width: 80%;
     line-height: 4em;
+    font-size: 80%;
+    top:-270px;
+
+
+
+
     }
+  .head-typo p{
+    margin-bottom: 0.25em;
+  }
   .head-typo a{
     margin-left: 30%;
     }
