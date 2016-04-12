@@ -117,28 +117,23 @@ body {
 
 .home nav h1 {
 	float: left;
-	margin: 3em 0 0 4em;
+	margin: 2em 0 0 5.5em;
 	color: #6d4838
 }
 
 .home nav ul {
 	font-size: .75em;
 	float: right;
-	margin-top: 4em;
-}
-
-.home nav ul li a {
-	padding: 1em;
-	color: #6d4838
+	margin: 2em 2em 0 0;
 }
 
 .home nav ul li{
 	display: inline-block
 }
 
-
 .home nav ul li a{
-	color: #fff
+color: #6d4838;
+padding: .8em;
 }
 
 .home {
@@ -165,8 +160,9 @@ body {
 	color: #fff
 }
 
+
 .about {
-	padding-bottom: 4em;
+	padding: 6em 0 6em 0;
 }
 
 .about h2{
@@ -198,26 +194,27 @@ body {
 	padding: 2em 0 2em 0;
 }
 .activity h2{
-	color: #fff
+	color: #fff;
 }
 
 .activity .col {
-
+	float: left;
+	width: 20%;
 }
 
 
 .activity h3{
 	font-size: .9em;
-	float: right;
-	margin: 4em 6em 0 0;
+	color: #fff;
+	margin-top: 4em;
 }
 
 .activity ul{
-	margin: 7em 0 4em 0;
+	margin: 3em 0 4em 0;
+	color: #6d4838;
 }
 
 .activity ul li {
-	padding: .3em;
 	font-size: .85em;
 	display: block
 }
@@ -226,11 +223,13 @@ body {
 	font-size: .8em;
 	display: block;
 	font-weight: normal;
+	color: #6d4838
 }
 
 
 .location {
-	background: #6d4838
+	background: #6d4838;
+	padding: 2em 0 2em 0;
 }
 
 .location .col {
@@ -240,10 +239,11 @@ body {
 
 .location h2{
 	color: #fff;
+	margin: 2em;
 }
 
 .location ul {
-	margin: 7em 0 0 0;
+	margin: 2em 0 0 0;
 }
 
 .location ul li{
@@ -258,17 +258,19 @@ body {
 
 .location h4{
 	text-align: left;
-	margin: 0;
+	margin-top: 1.5em;
 	color: #fff;
 }
 
 .location h5{
-	margin: 3em 0 4em 0;
+	margin: 3em 0 4em 2em;
 	color: #fff;
 }
 
+
 .contact {
-	background-color: #5bb9ee
+	background-color: #5bb9ee;
+	padding: 2em 0 2em 0;
 }
 
 .contact .col-2{
@@ -276,25 +278,31 @@ body {
 	margin: 3em 0 8em 15em;
 }
 
+.contact h2 {
+	color: #fff;
+}
+
 .contact h3{
 	text-align: left;
 	font-size: 1em;
 	margin-top: 7em;
+	color: #fff;
 }
 
 .contact p{
 	margin-top: 1em;
 	font-size: 1em;
+	color: #fff;
 }
 
 
 .footer {
   height: 150px;
-	background: #ddd;
+	background: #fff;
 }
 
 .footer .searchbar {
-	margin-top: 5em;
+	margin: 5em 0 0 5em;
 }
 
 .footer .email-subscribe {
