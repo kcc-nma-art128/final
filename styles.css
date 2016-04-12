@@ -246,6 +246,7 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 
 .headline h1 {
   font-size: 4em;
+	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 1em;
@@ -272,6 +273,7 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 .col-3 h3 {
 	text-transform: uppercase;
 	font-size: 3em;
+	font-weight: 400;
 	text-align: center;
 	margin: 0.5em;
 }
@@ -301,15 +303,19 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 
 .footer {
 	background: #292728;
-	margin: 0;
-	height: 15em;
 }
 
 .footer img {
-	width: 12%;
+	width: 10%;
 	float: left;
-	margin: 4em;
+	margin: 4%;
 }
+
+.footer ul {
+	width: 80%;
+	float: left;
+}
+
 
 .footer ul li {
 	color: #fff;
@@ -321,12 +327,13 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 	width: 12%;
 	padding: 0.5em;
 	margin-top: 2em;
+	margin-left: 3%;
 	text-align: left;
 }
 
 .footer h6 {
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: 400;
 	border-bottom: 1px solid #fff;
 	padding-bottom: .1em;
 	text-align: left;
@@ -334,12 +341,12 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 
 .footer i {
 	float: left;
-	margin-left: 1em;
+	margin-left: 4%;
 	color: #fff;
 }
 
-.footer .social ul li {
-	width: 20%;
+.footer .social {
+	width: 30%;
 }
 
 .footer a {
@@ -352,6 +359,7 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 	font-weight: 300;
 	clear: both;
 	text-transform: uppercase;
+	margin: 10%;
 }
 
 
@@ -408,9 +416,10 @@ Description: Define screen-size breakpoints here.
 	}
 
 	.footer ul li {
-		width:28%;
+		width: 28%;
 		margin-left: 3em;
 		margin-bottom: 2em;
+		float: left;
 	}
 
 
@@ -437,7 +446,6 @@ Description: Define screen-size breakpoints here.
 
   .nav img {
     display: block;
-		margin-top: 2em;
   }
 
 	.nav ul li a {
@@ -452,21 +460,23 @@ Description: Define screen-size breakpoints here.
   }
 
 	.header img {
-		margin-top: 22em;
+		margin-top: 23em;
 	}
 
 	.col-3 {
 		display: block;
-		width: 100%;
+		width: 90%;
 	}
 
 	.col-3 img {
-		width: 80%;
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	.col-3 a {
 		border-radius: 6px;
 		font-size: 2em;
+		text-align: center;
 	}
 
 	.col-3 p {
@@ -477,19 +487,14 @@ Description: Define screen-size breakpoints here.
 		padding-bottom: 1em;
 	}
 
-	.footer {
-		height: 30em;
-	}
 
-	.footer img {
-		width: 30%;
-	}
 
 	.footer ul li {
-		width: 80%;
+		width: 50%;
 		clear: both;
-		font-size: 100%;
+		font-size: 1em;
 	}
+
 
 }
 
