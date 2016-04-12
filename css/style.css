@@ -242,8 +242,13 @@ body{
 
 /*MAIN NAV=====================================*/
 .mainnav {
+position: fixed;
+top: 0;
+left: 0;
+z-index: 10;
+width: 100%;
 text-align: center;
-background: #363a3b;
+background: rgba(0, 0, 0, 0.7);
 }
 
 .mainnav ul {
@@ -279,8 +284,8 @@ left: 380px;
 }
 .mainnav li a:hover {
   color: #ffb700;
-  border-top: 0.5px solid #fff;
-  border-bottom:  0.5px solid #fff;
+  border-top: 1px solid #fff;
+  border-bottom:  1px solid #fff;
   padding: 10px 0 5px 0;
 }
 .mainnav li a.active {
@@ -293,7 +298,7 @@ a.nav-toggle {
   width: 40px;
   height: 20px;
   position: absolute;
-  top: 60px;
+  top: 30px;
   right:25px;
 }
 
@@ -379,15 +384,18 @@ input[type="text"] {
 }
 .head-typo{
   width: 900px;
-  padding-left: 50px;
   position: absolute;
-  top:-550px;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .head-typo p {
   font-family:'ITCAvantGardeStd-Bold',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   color: #fff;
   text-align: center;
   font-size: 3.9375em;
+  line-height: normal;
   text-transform: uppercase;
   margin-bottom: 1em;
 }
@@ -403,6 +411,7 @@ input[type="text"] {
 
 }
 /*----------01B--------------*/
+.
 .welcome p{
   width: 455px;
   padding-left: 300px;
@@ -463,13 +472,14 @@ left: 40%;
 
 
 /*-------------section01-------------------*/
-.head-typo{
+/*.head-typo{
   width: 90%;
   line-height: 4em;
   font-size: 90%;
-  top: -400px;
+}*/
 
-  }
+
+
 .head-typo p{
   margin-bottom: 0.25em;
 
@@ -505,22 +515,24 @@ body {
 
 /*-------------NAV-------------------*/
 .logo {
+width: 90px;
 position: absolute;
 top: 10px;
 left: 10px;
 }
 input[type="text"] {
   position: absolute;
-  top:15px;
-  right:20px;
+  top:30px;
+  right:80px;
   }
 .button-search{
 position: absolute;
-top:17px;
-right: 25px;
+top:35px;
+right: 85px;
 }
+
 .mainnav ul {
- padding: 100px 0 10px 0;
+ padding: 60px 0 10px 0;
  display: block;
  }
 
@@ -544,17 +556,14 @@ right: 25px;
 
 
 
+
  /*-------------section01-------------------*/
 
   .head-typo {
+    top: 60%;
     width: 80%;
     line-height: 4em;
     font-size: 80%;
-    top:-270px;
-
-
-
-
     }
   .head-typo p{
     margin-bottom: 0.25em;
