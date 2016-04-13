@@ -180,7 +180,7 @@ body{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.3);
+color: rgba(255,255,255,0.3);
 }
 
 /* Caption text */
@@ -200,7 +200,7 @@ body{
 .dots{
   position: absolute;
   top: 87%;
-  margin-left: 48%;
+  margin-left: 45%;
 }
 .dot {
   cursor:pointer;
@@ -342,7 +342,7 @@ a.nav-toggle:hover {
 
 
 /*SEARCHBAR------------------------------------------------*/
-input[type="text"] {
+.mainnav input[type="text"] {
     background-color: #605f5f;
     border: none;
     font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
@@ -411,6 +411,9 @@ input[type="text"] {
   margin-left: 35%;
 
 }
+.head-typo a:hover{
+border: none;
+}
 /*----------01B--------------*/
 .welcome{
   width: 45%;
@@ -433,10 +436,14 @@ input[type="text"] {
 }
 
 /*arrow*/
-.welcome a{
+.welcome i{
   font-size: 4em;
   position: relative;
-  margin-left: 50%;
+  margin-left: 45%;
+}
+.welcome i:hover{
+  color: rgba(255, 255, 255, 0.5);
+
 }
 
 /*----------------------------*/
@@ -451,35 +458,100 @@ input[type="text"] {
 
 /*<!--FOOTER------------------------->*/
 
+/*>>>>>>>>>Newsletter<<<<<<<<<<<<<<<<*/
+.newsletter{
+  background-color: #4aaaa5;
+  padding:3% 10%;
+}
+.newsletter i{
+  font-size: 1.5em;
+  position: absolute;
+  top:10%;
+  right:33%;
+
+}
+.newsletter p, .newsletter .email, .newsletter a{
+  display: inline;
+}
+.newsletter p{
+  font-family: 'ITCAvantGardeStd-Md', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  color: #fff;
+  padding-right: 1.4em;
+}
+.newsletter a{
+  padding: 8px 30px 8px 30px;
+  color: #fff;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  background-color: #050505;
+  border-radius: 7px;
+  margin-left: 1.4em;
+}
+.newsletter a:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.newsletter input[type="text"] {
+    background-color: #fff;
+    border: none;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.125em;
+    font-weight:lighter;
+    color: #0a0a0a;
+    width: 40%;
+    padding: 6px 30px 6px 1px;
+    border-radius: 7px;
+    position: relative;
+    display: inline-block;
+    }
+
 .footer {
   background-image: url(../images/bg6.png);
   background-repeat: no-repeat;
+  background-color: #363636;
   background-size:100%;
   background-position: bottom;
   color: #fff;
   font-size: 1.375em;
-  line-height: 0.75em;
   text-align: center;
   }
 .footer h5{
   text-transform: uppercase;
-  padding: 85px 0 40px 0;
+  padding: 75px 0 25px 0;
 }
-.hours, .location{
+.hours{
   margin:auto;
   width: 50%;
   border-bottom: 1px solid #b1a69b;
+
+}
+.location i{
+font-size: 3em;
+padding-bottom: 0.5em;
+}
+.social-icon i{
+  margin-top: 0.75em;
+  padding: 0 0.3em;
+  font-size: 1.70em;
+}
+.location{
+  padding: 2em 0;
+  margin:auto;
+  width: 80%;
+  border-bottom: 1px solid #b1a69b;
 }
 .footer p{
+  margin-bottom: 0.6em;
 
-
-
-
+}
+.location p:first-of-type{
+  margin-bottom: 2.5em;
 }
 
 .copyright {
-  font-size: 0.8125em;
-  padding: 50px 0;
+  font-size: 0.7125em;
+  padding: 30px 0;
 
 }
 
@@ -519,16 +591,24 @@ left: 40%;
 }
 /*-------------section01-------------------*/
 
-
-
-
-
 .welcome {
 width: 50%;
 }
+/*-------------footer-------------------*/
+.newsletter p, .newsletter .email, .newsletter a{
+  display: block;
+  text-align: center;
+  position: relative;
 }
-/*-------------section02-------------------*/
+.newsletter a {
+  margin: 2% 35%;
+}
+.newsletter i{
+  top:10%;
+  right:30%;
 
+}
+}
 
 
 /* MOBILE =====================================================*/
@@ -551,7 +631,7 @@ position: absolute;
 top: 10px;
 left: 10px;
 }
-input[type="text"] {
+.mainnav input[type="text"] {
   position: absolute;
   top:25px;
   right:80px;
@@ -606,19 +686,28 @@ right: 85px;
     margin-bottom: 0.25em;
   }
   .head-typo a{
-    margin-left: 30%;
+    margin-left: 27%;
     }
     .welcome {
     width: 60%;
     }
 
+/*-------------footer-------------------*/
+
+.newsletter p, .newsletter .email, .newsletter a{
+  display: block;
+  text-align: center;
+  position: relative;
 }
+.newsletter a {
+  margin: 2% 30%;
+}
+.newsletter i{
+  top:10%;
+  right:30%;
 
-/*-------------section02-------------------*/
-
-
-
-
+}
+}
 
 
 
