@@ -446,7 +446,68 @@ border: none;
 
 }
 
+
+
+
+/*font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;*/
 /*----------------------------*/
+/*<!--section2:about------------------------->*/
+.section02{
+  background-color: #e8f4e6;
+  background-image: url(../images/bg2.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position: bottom;
+}
+.about-title{
+  background-size: 100%;
+  repeat: no-repeat;
+  background-position: bottom;
+  background-image: url('../images/about-title.png');
+}
+
+.about-title h1{
+  font: 7.75em  'ITCAvantGardeStd-Demi',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #e8f4e6;
+  padding: 17% 0 3% 0;
+}
+
+.section02 h3{
+  font: 2.5em 'ITCAvantGardeStd-DemiCn',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  color: #b0b601;
+  text-transform: uppercase;
+  padding-left: 10%;
+  margin-right: 30%;
+  border-bottom: 1px solid #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
