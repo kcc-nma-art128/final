@@ -127,19 +127,19 @@ body {
 
 /* LAYOUT/GRID */
 .section01 {
-	width: 100%;
+	width: 50%;
 	float: left;
 	margin: 0;
 }
 
 .section02 {
-	width: 100%;
+	width: 50%;
 	float: left;
 	margin: 0;
 }
 
 .section03 {
-	width: 100%;
+	width: 50%;
 	float: left;
 	margin: 0;
 }
@@ -168,7 +168,7 @@ background: #000;
 .main-nav {
 	background: #000;
 	float: right;
-	width: 70%;
+	width: 50%;
 }
 
 .main-nav .input-group {
@@ -177,7 +177,7 @@ background: #000;
 }
 
 .main-nav ul {
-	margin-top: 2.25em;
+	margin-bottom: 1em;
 	list-style: none;
 	float: right;
 
@@ -186,12 +186,6 @@ background: #000;
 .main-nav li {
 	margin: 0;
 	float: left;
-	padding: 2em;
-	padding-bottom: 0;
-}
-
-.main-nav li:last-child {
-	padding-right: 0;
 }
 
 .main-nav a{
@@ -213,24 +207,11 @@ background: #000;
 /* SECTION 01 */
 .section01 {
 	text-align: left;
-	position: relative;
-}
 
-.carousel-inner .item img {
-	width: 100%;
-}
-
-.call-to-action {
-	position: absolute;
-	top: 50px;
-	width: 100%;
 }
 
 .menu-button {
-	color: #fff;
-	background: #b82222;
-	padding: 10px 20px;
-	display: inline-block;
+	color: #b82222;
 }
 
 /* MEDIA QUERIES
