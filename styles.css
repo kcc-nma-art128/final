@@ -257,7 +257,7 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 
 .headline {
 	margin: 3em;
-	padding-top: 2em;
+	padding-top: 1em;
 	text-align: center;
 }
 
@@ -398,19 +398,24 @@ Description: Define screen-size breakpoints here.
 		width: 90%;
 		margin: 2%;
 		padding: 4%;
+		padding-top: 0;
 	}
 
 	.nav ul li a {
 		font-size: 100%;
+		margin-left: 0;
 	}
 
-	.nav ul {
-		margin-left: 30%;
+	.headline {
+		padding-top: 0;
 	}
 
-	.header h1 {
+
+	.headline h1 {
 		font-size: 3em;
+		margin-bottom: 0;
 	}
+
 
 	.col-3 {
 		width: 28%;
@@ -434,21 +439,29 @@ Description: Define screen-size breakpoints here.
 		margin: 4%;
 	}
 
-.footer ul {
-	width: 80%;
-	float: right;
-}
+	.footer ul {
+		width: 70%;
+		float: right;
+	}
 
 	.footer ul li {
 		width: 30%;
-		margin-left: 1.5em;
+		margin-left: 1em;
 		margin-bottom: 1em;
 		float: left;
 	}
 
+.footer .location {
+	margin-bottom: 4em;
+}
+
 
 .footer .social {
 	width: 30%;
+}
+
+.footer img {
+	width: 15%;
 }
 
 
@@ -467,19 +480,23 @@ Description: Define screen-size breakpoints here.
 		padding: 5%;
 	}
 
+	.headline h1 {
+		font-size: 4em;
+	}
+
 	.nav ul {
-		margin-left:35%;
-		font-size: 1.5em;
+		margin-left: 35%;
+		font-size: 1.2em;
 	}
 
   .nav img {
 		clear: both;
   }
 
-.nav ul {
-	display: block;
-	float: none;
-}
+	.nav ul {
+		display: block;
+		float: none;
+	}
 
   .nav ul li a {
 
@@ -546,6 +563,11 @@ Description: Define screen-size breakpoints here.
 
 	.footer a {
 		margin: 10%;
+	}
+
+	.footer .email {
+		width: 100%;
+		margin: 0;
 	}
 
 
