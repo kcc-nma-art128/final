@@ -188,14 +188,17 @@ padding: .8em;
 	color: #6d4838
 }
 
-
 .activity {
 	background: #b3e2f1;
-	padding: 4em 0 2em 0;
+	padding: 5em 0 2em 0;
 }
 .activity h2{
 	color: #fff;
 	margin: 2em 0 1em 0;
+}
+
+.activity .row{
+	margin-bottom: 3em;
 }
 
 .activity .col-1{
@@ -212,7 +215,6 @@ padding: .8em;
 .activity .col-3{
 	float: left;
 	width: 25%;
-	height: 80%;
 	background-color: #fff;
 }
 
@@ -228,7 +230,7 @@ padding: .8em;
 }
 
 .activity ul{
-	margin: 3em 0 4em 1em;
+	margin: 3em 2em 1.5em 2em;
 	color: #6d4838;
 	list-style: none;
 }
@@ -268,16 +270,16 @@ padding: .8em;
 
 .location ul {
 	list-style: none;
-	margin: 2em 0 0 0;
 }
 
 .location ul li{
-	font-size: 1.3em;
+	font-size: 1.5em;
+	padding-top: .5em;
 	color: #fff;
 }
 
 .location ul li small{
-	padding-top: 2em;
+	font-size: .8em;
 	color: #fff;
 }
 
@@ -289,7 +291,9 @@ padding: .8em;
 
 .location h5{
 	margin: 3em 0 4em 2em;
+	padding: .5em 1em .5em 1em;
 	color: #fff;
+	background-color: #b3e2f1;
 }
 
 
@@ -298,13 +302,17 @@ padding: .8em;
 	padding: 2em 0 2em 0;
 }
 
-.contact .col-2{
-	display: inline-block;
-	margin: 3em 0 8em 15em;
-}
-
 .contact h2 {
 	color: #fff;
+}
+
+.contact .col{
+	float: left;
+	width: 50%;
+}
+
+.contact .image{
+	width: 50%;
 }
 
 .contact h3{
@@ -326,9 +334,14 @@ padding: .8em;
 	background: #fff;
 }
 
+.footer .col {
+	margin: 1em;
+}
+
 .footer .searchbar {
-	margin: 3em 0 0 5em;
 	background-color: #b3e2f1;
+	color: #fff;
+	margin-top: 1em;
 }
 
 .footer .email-subscribe {
@@ -337,14 +350,12 @@ padding: .8em;
 
 .footer p {
 	font-size: .9em;
-	margin: 1em 6em 0 0;
 	color: #6d4838
 }
 
 .footer ul {
 	display: block;
 	font-size: .8em;
-	margin: 0 5em 0 0;
 	color: #6d4838
 }
 
@@ -354,8 +365,9 @@ padding: .8em;
 }
 
 .footer .subscribe {
-	margin: 1em 0 0 1em;
+	margin-left: 2em;
 	background-color: #b3e2f1;
+	float: right;
 }
 
 
