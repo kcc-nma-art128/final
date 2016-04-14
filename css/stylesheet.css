@@ -137,10 +137,10 @@ padding: .8em;
 }
 
 .home {
-	background-color: #dbe0e8
-}
-
-.home {
+	background-image: url("../imgs/cuctus.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	height: 40em;
 }
 
@@ -233,8 +233,13 @@ padding: .8em;
 }
 
 .location .col {
+	padding: 1em;
 	float: left;
 	width: 50%;
+}
+
+.location .map-image{
+	width: 85%;
 }
 
 .location h2{
@@ -243,6 +248,7 @@ padding: .8em;
 }
 
 .location ul {
+	list-style: none;
 	margin: 2em 0 0 0;
 }
 
