@@ -191,27 +191,46 @@ padding: .8em;
 
 .activity {
 	background: #b3e2f1;
-	padding: 2em 0 2em 0;
+	padding: 4em 0 2em 0;
 }
 .activity h2{
 	color: #fff;
+	margin: 2em 0 1em 0;
 }
 
-.activity .col {
+.activity .col-1{
 	float: left;
-	width: 20%;
+	width: 15%;
 }
 
+.activity .col-2{
+	float: left;
+	width: 55%;
+	margin-left: 5%;
+}
+
+.activity .col-3{
+	float: left;
+	width: 25%;
+	height: 80%;
+	background-color: #fff;
+}
+
+.activity .keiki-image {
+	width: 100%;
+}
 
 .activity h3{
 	font-size: .9em;
 	color: #fff;
-	margin-top: 4em;
+	background-color: #5bb9ee;
+	padding: 1em;
 }
 
 .activity ul{
-	margin: 3em 0 4em 0;
+	margin: 3em 0 4em 1em;
 	color: #6d4838;
+	list-style: none;
 }
 
 .activity ul li {
@@ -309,6 +328,7 @@ padding: .8em;
 
 .footer .searchbar {
 	margin: 3em 0 0 5em;
+	background-color: #b3e2f1;
 }
 
 .footer .email-subscribe {
@@ -335,6 +355,7 @@ padding: .8em;
 
 .footer .subscribe {
 	margin: 1em 0 0 1em;
+	background-color: #b3e2f1;
 }
 
 
