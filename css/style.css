@@ -292,7 +292,7 @@ left: 380px;
   color: #ffb700;
 }
 /*--------------------------------*/
-a.nav-toggle {
+.nav-toggle {
   display: none;
   box-sizing: border-box;
   width: 40px;
@@ -302,7 +302,7 @@ a.nav-toggle {
   right:25px;
 }
 
-a.nav-toggle:hover {
+.nav-toggle:hover {
   background: transparent;
 }
 
@@ -458,6 +458,7 @@ border: none;
   background-repeat: no-repeat;
   background-size:100%;
   background-position: bottom;
+  padding-bottom: 4em;
 }
 .about-title{
   background-size: 100%;
@@ -478,13 +479,44 @@ border: none;
   font: 2.5em 'ITCAvantGardeStd-DemiCn',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   color: #b0b601;
   text-transform: uppercase;
-  padding-left: 10%;
+  padding:5% 0 1% 30%;
   margin-right: 30%;
   border-bottom: 1px solid #333;
 }
+.section02 p{
+  padding:1% 30% 0 ;
+  margin-bottom: 0.5em;
+}
+.section02 .container{
+  background-color: rgba(255,255,255,0.4);
+  position: relative;
+  width: 75%;
+  padding: 5px;
+}
+.section02 ul{
+  list-style: none;
+}
+.col02{
+  display: inline-block;
+  width: 40%;
+  padding: 0 0 0 2em ;
+}
+.col02:last-of-type{
+  float: right;
+
+}
+.col02 p{
+  margin: 0;
+  padding: 0;
+}
+.col02 i{
+  font-size: 0.05em;
+  position: relative;
+top: 24px;
+right: 16px;
 
 
-
+}
 
 
 
@@ -518,7 +550,9 @@ border: none;
 
 
 /*<!--FOOTER------------------------->*/
-
+footer{
+  position: relative;
+}
 /*>>>>>>>>>Newsletter<<<<<<<<<<<<<<<<*/
 .newsletter{
   background-color: #4aaaa5;
@@ -751,6 +785,21 @@ right: 85px;
     }
     .welcome {
     width: 60%;
+    }
+
+/*-------------section02-------------------*/
+
+    .col02{
+      position: relative;;
+      display: inline-block;
+      width: 70%;
+      padding: 0 25% ;
+
+
+    }
+    .col02:last-of-type{
+      float: none;
+
     }
 
 /*-------------footer-------------------*/

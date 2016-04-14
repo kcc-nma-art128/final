@@ -11,7 +11,7 @@ $(function() {
   });
 
   $window.on('resize', function() {
-    if ($window.width() < mobileBreakpoint && $mainNavUl.is(':hidden')) {
+    if ($window.width() < mobileBreakpoint & $mainNavUl.is(':hidden')) {
       $mainNavUl.removeAttr('style');
       $navToggle.removeClass('active');
     }
