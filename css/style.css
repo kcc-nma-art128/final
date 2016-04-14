@@ -39,7 +39,7 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 100%; /* 1em = 16px */
 	line-height: 1.5em; /* 16px x 1.5em = 24px */
-	color: #333;
+	color: #fff;
 }
 
 /* #HEADINGS */
@@ -169,8 +169,6 @@ background: #000;
 	background: #000;
 	float: right;
 	width: 50%;
-	margin-top: 40px;
-
 }
 
 .main-nav .input-group {
@@ -182,6 +180,7 @@ background: #000;
 	margin-bottom: 1em;
 	list-style: none;
 	float: right;
+
 }
 
 .main-nav li {
@@ -205,7 +204,15 @@ background: #000;
 	border-bottom: 2px solid #fff;
 }
 
+/* SECTION 01 */
+.section01 {
+	text-align: left;
 
+}
+
+.menu-button {
+	color: #b82222;
+}
 
 /* MEDIA QUERIES
 Description: Define screen-size breakpoints here.
