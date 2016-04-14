@@ -234,6 +234,21 @@ background: #000;
 	display: inline-block;
 }
 
+/* SECTION 02 */
+.section02 {
+	text-align: center;
+	padding: 5em;
+}
+
+.h4 {
+	font-style: italic;
+}
+
+/* SECTION 03 */
+.section03 {
+	text-align: center;
+}
+
 /* MEDIA QUERIES
 Description: Define screen-size breakpoints here.
 (e.g. Desktop, Tablet, Mobile)
