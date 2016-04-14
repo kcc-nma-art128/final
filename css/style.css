@@ -78,7 +78,6 @@ a.active {
 
 /* LAYOUT/GRID */
 .heading h1{
-  margin-top: 150px;
   padding: 50px;
   text-align: center;
   color: #d7abac;
@@ -87,7 +86,8 @@ a.active {
 
 /* MANNAV */
 .mainnav {
-  background: transparent;
+  background: #fff;
+  opacity: 0.9;
   position: fixed;
   top: 0;
   width: 100%;
@@ -129,7 +129,6 @@ margin-bottom: 10px;
 .homepage01 {
   background: url("../image/homepage.jpg");
   width: 100%;
-  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -166,16 +165,18 @@ margin-bottom: 10px;
   width: 100%;
   height: 2000px;
   position: relative;
+  padding-top: 150px;
 }
 
 .flavor:after {
-  background: url("../image/Navigation-background-blue.png") -0.5px;
+  background: url("../image/Navigation-background-blue.png") -145px;
   content: " ";
   width: 100%;
-  height: 47px;
+  height: 233px;
   position: absolute;
   bottom: -1px;
   overflow: hidden;
+  left: 0;
 }
 
 .flavor-options ul{
@@ -223,6 +224,10 @@ list-style: none;
 }
 
 /* ABOUT */
+.about {
+  padding-top: 150px;
+}
+
 .about:after {
   background: url("../image/navigation-background-green");
   width: 100%;
@@ -230,6 +235,10 @@ list-style: none;
   position: absolute;
   bottom: -1px;
   overflow: hidden;
+}
+
+.about-image {
+  width: 100%;
 }
 
 .about .col-3{
@@ -247,4 +256,24 @@ margin: 20px;
 .about p {
   padding: 5px;
   font-size: 0.875em; /* 14px / 16px = 0.875em */
+}
+
+/* LOCATION */
+
+
+/* GALLERY */
+
+
+/* FOOTER */
+.footer {
+  background: #e3e3e3;
+  padding: 20px;
+}
+
+.footer p {
+  text-align: center;
+}
+
+.footer .social-media {
+text-align: center;
 }
