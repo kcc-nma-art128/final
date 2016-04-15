@@ -165,8 +165,7 @@ body{
   width: auto;
   margin: 0 50px ;
   padding: 16px ;
-  color: white;
-  font-weight: bold;
+  color: rgba(255,255,255,0.8);
   font-size: 20px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
@@ -180,19 +179,19 @@ body{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-color: rgba(255,255,255,0.3);
+color:#fff;
 }
 
 /* Caption text */
-/*.text {
+.text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
-}*/
+  text-align: left;
+}
 
 
 
@@ -288,8 +287,9 @@ left: 380px;
   border-bottom:  1px solid #fff;
   padding: 10px 0 5px 0;
 }
-.mainnav li a.active {
+.mainnav a.active {
   color: #ffb700;
+  background: transparent;
 }
 /*--------------------------------*/
 .nav-toggle {
@@ -377,11 +377,12 @@ left: 380px;
 
 /*<!--section1------------------------->*/
 .section01{
-  background-image: url(../images/bg1.png);
-  background-repeat: no-repeat;
-  background-size:100%;
-  background-position: bottom;
-}
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-color: rgba(251, 175, 93, 0.2);
+    background-size:100%;
+    background-position: bottom;
+  }
 .head-typo{
   width: 900px;
   position: absolute;
@@ -437,12 +438,13 @@ border: none;
 
 /*arrow*/
 .welcome i{
+  color: rgba(255, 255, 255, 0.5);
   font-size: 4em;
   position: relative;
   margin-left: 45%;
 }
 .welcome i:hover{
-  color: rgba(255, 255, 255, 0.5);
+  color:#fff;
 
 }
 
@@ -519,8 +521,98 @@ right: 16px;
 }
 
 
+/*<!--section3:MENU------------------------->*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<!--section4:Gallery------------------------->*/
+.section04{
+  background-color: #f2e2ea;
+  background-image: url(../images/bg4.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position: bottom;
+  padding-bottom: 4em;
+}
+.gallery-title{
+  background-size: 100%;
+  repeat: no-repeat;
+  background-position: bottom;
+  background-image: url('../images/gallery-title.png');
+}
+
+.gallery-title h1{
+  font: 7.75em  'ITCAvantGardeStd-Demi',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f2e2ea;
+  padding: 17% 0 3% 0;
+}
+
+.section04 .container{
+  padding: 5% 0;
+  width:70%;
+}
+.section04 a{
+font-size: 4.5em;
+color: rgba(255,255,255, 0.5);
+}
+
+.section04 a:hover, a:hover {
+color: #fff;
+}
+
+/* Caption text */
+.text {
+  text-transform: uppercase;
+  color: rgba(255,255,255, 0.8);
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  text-align: right;
+}
+.g-slide h2{
+  font: 4em 'ITCAvantGardeStd-BoldCn',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  color: #fff;
+  padding:0.25em 0 0 0;
+  text-transform: uppercase;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  margin:0 0 0 25%;
+  position: absolute;
+  top:45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<!--section5:NEWS------------------------->*/
 
 
 
@@ -764,13 +856,7 @@ right: 85px;
 
 
  /*-------------section01-------------------*/
- .section01{
-   background-image: url(../images/bg1.png);
-   background-repeat: no-repeat;
-   background-color: rgba(251, 175, 93, 0.2);
-   background-size:100%;
-   background-position: bottom;
- }
+
   .head-typo {
     top: 60%;
     width: 80%;
@@ -788,7 +874,9 @@ right: 85px;
     }
 
 /*-------------section02-------------------*/
-
+.about-title h1{
+  font-size: 6em;
+}
     .col02{
       position: relative;;
       display: inline-block;
@@ -801,6 +889,18 @@ right: 85px;
       float: none;
 
     }
+
+/*-------------section02-------------------*/
+.gallery-title h1{
+  font-size: 6em;
+  }
+.g-slide h2 {
+  font-size: 2.5em;
+}
+
+
+
+
 
 /*-------------footer-------------------*/
 
