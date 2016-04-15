@@ -464,8 +464,8 @@ border: none;
 }
 .about-title{
   background-size: 100%;
-  repeat: no-repeat;
-  background-position: bottom;
+  background-repeat:no-repeat;
+  background-position: top;
   background-image: url('../images/about-title.png');
 }
 
@@ -483,7 +483,7 @@ border: none;
   text-transform: uppercase;
   padding:5% 0 1% 30%;
   margin-right: 30%;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #b1a69b;
 }
 .section02 p{
   padding:1% 30% 0 ;
@@ -516,8 +516,6 @@ border: none;
   position: relative;
 top: 24px;
 right: 16px;
-
-
 }
 
 
@@ -551,8 +549,8 @@ right: 16px;
 }
 .gallery-title{
   background-size: 100%;
-  repeat: no-repeat;
-  background-position: bottom;
+  background-repeat:no-repeat;
+  background-position: top;
   background-image: url('../images/gallery-title.png');
 }
 
@@ -590,14 +588,24 @@ color: #fff;
 .g-slide h2{
   font: 4em 'ITCAvantGardeStd-BoldCn',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   color: #fff;
-  padding:0.25em 0 0 0;
+  text-align: center;
+  padding:10px 10px 0 10px;
   text-transform: uppercase;
   border-top: 3px solid #fff;
   border-bottom: 3px solid #fff;
-  margin:0 0 0 25%;
   position: absolute;
-  top:45%;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+.line04{
+    border-bottom: 2px solid #b1a69b;
+    margin:0 10%;
+  }
+
+
+
 
 
 
@@ -614,11 +622,98 @@ color: #fff;
 
 /*<!--section5:NEWS------------------------->*/
 
+.section05{
+  background-color: #fdf9e0;
+  background-image: url(../images/bg5.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position: bottom;
+  padding-bottom: 4em;
+}
+.news-title{
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position: top;
+  background-image: url('../images/news-title.png');
+}
+
+.news-title h1{
+  font: 7.75em  'ITCAvantGardeStd-Demi',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fdf9e0;
+  padding: 17% 0 3% 0;
+}
+
+.section05 h3{
+  font: 1.875em 'ITCAvantGardeStd-BoldCn',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  line-height: 1.5em;
+  margin-bottom: 0;
+  color: #b0b601;
+}
+.section05 h4{
+  font: 1em 'ITCAvantGardeStd-BkObl',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  margin-bottom: 1.5em;
+}
 
 
+.section05 .col-05 {
+  width: 40%;
+  float: right;
+  margin: 0 8% 10% 7%;
+}
+
+.section05 .col-img {
+  width: 30%;
+  float: left;
+  border-top: 2px solid #b1a69b;
+  margin-left: 15%;
+  margin-top: 5%;
+  padding-top: 10%;
 
 
+}
+/*.img {
+display: block;
+width: 30%;
+border-top: 2px solid #b1a69b;
+/*padding: 10% 0 0 10% ;*/
+/*float:left;*/
+/*margin-top: 10%;*/
 
+}
+
+/*.col05{
+  display: block;
+    width: 40%;*/
+    /*margin-top: 10%;
+    margin-left: 40%;
+    padding-left: 5%;*/
+    /*float:right;*/
+
+ /*}*/
+
+.section05 .post a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+.section05 .post a{
+   padding: 8px 30px 8px 30px;
+   color: #fff;
+   font-size: 1.125em;
+   text-transform: uppercase;
+   background-color: #050505;
+   border-radius: 7px;
+   float: right;
+   margin-right: 5%;
+ }
+
+
+ .section05 .col-05 a{
+  text-decoration: underline;
+  color:#ffb700;
+
+  }
 
 
 
@@ -642,9 +737,7 @@ color: #fff;
 
 
 /*<!--FOOTER------------------------->*/
-footer{
-  position: relative;
-}
+
 /*>>>>>>>>>Newsletter<<<<<<<<<<<<<<<<*/
 .newsletter{
   background-color: #4aaaa5;
@@ -890,18 +983,26 @@ right: 85px;
 
     }
 
-/*-------------section02-------------------*/
+/*-------------section04-------------------*/
 .gallery-title h1{
   font-size: 6em;
   }
 .g-slide h2 {
   font-size: 2.5em;
 }
+/*-------------section05-------------------*/
+.news-title h1{
+  font-size: 6em;
+  }
+.img {
+    width: 80%;
+}
+.col05 {
+    width: 68%;
+    margin-left: 10%;
+    padding-left: 5%;
 
-
-
-
-
+}
 /*-------------footer-------------------*/
 
 .newsletter p, .newsletter .email, .newsletter a{
