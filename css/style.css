@@ -249,6 +249,27 @@ background: #000;
 	text-align: center;
 }
 
+/* FOOTER */
+.footer {
+	background: #b82222;
+	float: left;
+	width: 100%
+}
+
+.footer ul {
+	margin-top: 2.25em;
+	list-style: none;
+	text-align: center;
+
+}
+
+.main-nav li {
+	margin: 0;
+	float: left;
+	padding: 2em;
+	padding-bottom: 0;
+}
+
 /* MEDIA QUERIES
 Description: Define screen-size breakpoints here.
 (e.g. Desktop, Tablet, Mobile)
