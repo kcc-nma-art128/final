@@ -459,13 +459,16 @@ Description: Define screen-size breakpoints here.
 	margin-bottom: 4em;
 }
 
-
 .footer .social {
 	width: 30%;
 }
 
 .footer img {
 	width: 15%;
+}
+
+.footer a {
+	margin: 1.5%;
 }
 
 
@@ -516,6 +519,7 @@ Description: Define screen-size breakpoints here.
 	.col-3 {
 		display: block;
 		width: 90%;
+		margin-bottom: 10%;
 	}
 
 	.col-3 img {
@@ -544,13 +548,15 @@ Description: Define screen-size breakpoints here.
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
+		padding-left: 30%;
 	}
 
 	.footer img {
 		display: block;
-		width: 20%;
+		width: 40%;
 		padding: 4%;
 		clear: both;
+		padding-top: 15%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -566,12 +572,14 @@ Description: Define screen-size breakpoints here.
 	}
 
 	.footer a {
-		margin: 10%;
+		margin: 5%;
 	}
 
 	.footer .email {
-		width: 100%;
+		width: 80%;
 		margin: 0;
+		margin-bottom: 20%;
+		padding-right: 30%;
 	}
 
 
