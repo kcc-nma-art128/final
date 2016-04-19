@@ -36,6 +36,7 @@ below.
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 /* #HTML5
@@ -223,10 +224,10 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 	margin-right: 1em;
 }
 
-.nav ul li a:active {
+.nav a.active {
 	font-weight: bold;
+	text-decoration: underline;
 }
-
 
 .nav ul li {
 	float:left;
@@ -300,7 +301,7 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 	font-size: 1.5em;
 	border: 1.5px solid #000;
 	border-radius: 10px;
-	width: 50%;
+	width: 70%;
 	text-align: center;
 	padding: 0.3em;
 	padding-left: 1em;
@@ -404,7 +405,7 @@ Description: Define screen-size breakpoints here.
 
 	.container {
 		width: 90%;
-		margin: 2%;
+		margin: 2% auto;
 		padding: 4%;
 		padding-top: 0;
 	}
@@ -426,7 +427,8 @@ Description: Define screen-size breakpoints here.
 
 
 	.col-3 {
-		width: 28%;
+		width: 30%;
+		margin: 1.5%;
 	}
 
 	.col-3 h3 {
@@ -437,14 +439,14 @@ Description: Define screen-size breakpoints here.
 	.col-3 p {
 		width: 70%;
 		font-size: 1em;
-		margin-left: 0.5em;
-		margin-right: 0.5em;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.col-3 a {
 		font-size: 95%;
 		border-radius: 6px;
-		margin: 4%;
+		margin: auto;
 	}
 
 	.footer ul {
@@ -453,27 +455,27 @@ Description: Define screen-size breakpoints here.
 	}
 
 	.footer ul li {
-		width: 30%;
+		width: 40%;
 		margin-left: 1em;
 		margin-bottom: 1em;
 		float: left;
 	}
 
-.footer .location {
-	margin-bottom: 4em;
-}
+	.footer .location {
+		margin-bottom: 4em;
+	}
 
-.footer .social {
-	width: 30%;
-}
+	.footer .social {
+		width: 40%;
+	}
 
-.footer img {
-	width: 15%;
-}
+	.footer img {
+		width: 15%;
+	}
 
-.footer a {
-	margin: 1.5%;
-}
+	.footer a {
+		margin: 1.5%;
+	}
 
 
 }
@@ -487,7 +489,7 @@ Description: Define screen-size breakpoints here.
 
 	.container {
 		width: 84%;
-		margin: 3%;
+		margin: auto;
 		padding: 5%;
 	}
 
@@ -496,7 +498,8 @@ Description: Define screen-size breakpoints here.
 	}
 
 	.nav ul {
-		margin-left: 35%;
+		margin-left: auto;
+		width: 50%;
 		font-size: 1.2em;
 	}
 
@@ -504,13 +507,8 @@ Description: Define screen-size breakpoints here.
 		clear: both;
   }
 
-	.nav ul {
-		display: block;
-		float: none;
-	}
 
   .nav ul li a {
-
     text-align: center;
     margin: 0.5em;
 		clear: both;
@@ -534,7 +532,7 @@ Description: Define screen-size breakpoints here.
 	.col-3 a {
 		border-radius: 6px;
 		font-size: 2em;
-		width: 40%;
+		width: 60%;
 		padding: 0.5em;
 	}
 
@@ -552,7 +550,6 @@ Description: Define screen-size breakpoints here.
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
-		padding-left: 30%;
 	}
 
 	.footer img {
@@ -563,16 +560,17 @@ Description: Define screen-size breakpoints here.
 		padding-top: 15%;
 		margin-left: auto;
 		margin-right: auto;
+		float: none;
 	}
 
 	.footer ul li {
-		width: 50%;
+		width: 80%;
 		clear: both;
 		font-size: 1em;
 	}
 
 	.footer .social{
-		width: 50%;
+		width: 80%;
 	}
 
 	.footer a {
