@@ -212,7 +212,6 @@ asides, sidebars, footer, sub page-specific styling, etc.)
   clear: both;
 }
 
-
 .nav ul li a {
   text-transform: uppercase;
 	font-weight: 300;
@@ -223,6 +222,11 @@ asides, sidebars, footer, sub page-specific styling, etc.)
 	margin-left: 1em;
 	margin-right: 1em;
 }
+
+.nav ul li a:active {
+	font-weight: bold;
+}
+
 
 .nav ul li {
 	float:left;
