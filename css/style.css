@@ -169,17 +169,6 @@ margin-bottom: 10px;
   padding-top: 150px;
 }
 
-.flavor:after {
-  background: url("../image/Navigation-background-blue.png") -145px;
-  content: " ";
-  width: 100%;
-  height: 233px;
-  position: absolute;
-  bottom: -1px;
-  overflow: hidden;
-  left: 0;
-}
-
 .flavor-options ul{
   text-align: center;
 }
@@ -229,16 +218,6 @@ list-style: none;
   padding-top: 140px;
 }
 
-.about:after {
-  background: url("../image/navigation-background-green.png") -145px;
-  width: 100%;
-  height: 47px;
-  position: absolute;
-  bottom: -1px;
-  overflow: hidden;
-  left: 0;
-}
-
 .about-image {
   width: 100%;
 }
@@ -263,16 +242,17 @@ margin: 20px;
 /* LOCATION */
 .location {
   padding-top: 150px;
+  text-align: center;
 }
 
-.location:after {
-  background: url("../image/navigation-background-pink.png") -145px;
-  width: 100%;
-  height: 47px;
-  position: absolute;
-  bottom: -1px;
-  overflow: hidden;
-  left: 0;
+.location .heading {
+  padding: 40px;
+  text-align: center;
+}
+
+.map a {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* GALLERY */
