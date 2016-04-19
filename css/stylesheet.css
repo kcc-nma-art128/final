@@ -194,7 +194,7 @@ padding: .8em;
 }
 .activity h2{
 	color: #fff;
-	margin: 2em 0 1em 0;
+	margin: 2em;
 }
 
 .activity .row{
@@ -203,34 +203,35 @@ padding: .8em;
 
 .activity .col-1{
 	float: left;
-	width: 15%;
+	width: 8%;
 }
 
 .activity .col-2{
 	float: left;
-	width: 55%;
-	margin-left: 5%;
+	width: 58%;
+	margin-left: 7%;
 }
 
 .activity .col-3{
 	float: left;
-	width: 25%;
+	width: 27%;
 	background-color: #fff;
 }
 
 .activity .keiki-image {
 	width: 100%;
+	margin-bottom: 2em;
 }
 
 .activity h3{
 	font-size: .9em;
 	color: #fff;
 	background-color: #5bb9ee;
-	padding: 1em;
+	padding: 1em 3em 1em 3em;
 }
 
 .activity ul{
-	margin: 3em 2em 1.5em 2em;
+	margin: 2em 2em 2em 1em;
 	color: #6d4838;
 	list-style: none;
 }
@@ -244,7 +245,12 @@ padding: .8em;
 	font-size: .8em;
 	display: block;
 	font-weight: normal;
-	color: #6d4838
+	color: #6d4838;
+}
+
+.activity ul li a {
+	font-size: .8em;
+	color: #5bb9ee;
 }
 
 
@@ -291,7 +297,7 @@ padding: .8em;
 
 .location .button{
 	margin: 3em 0 4em 2em;
-	padding: .5em 1em .5em 1em;
+	padding: .3em 3em .3em 3em;
 	color: #fff;
 	background-color: #b3e2f1;
 	display: inline-block;
@@ -306,7 +312,7 @@ padding: .8em;
 
 .contact h2 {
 	color: #fff;
-	margin: 2em;
+	margin: 5em 0 2em 0;
 }
 
 .contact .col{
@@ -314,20 +320,24 @@ padding: .8em;
 	width: 25%;
 }
 
-
-
 .contact h3{
 	text-align: left;
 	font-size: 1em;
 	color: #fff;
+	margin-top: 4em;
+	margin-left: 1em;
 }
 
 .contact p{
 	margin-top: 1em;
+	margin-left: 1em;
 	font-size: 1em;
 	color: #fff;
 }
 
+.contact .image {
+	margin-bottom: 5em;
+}
 
 .footer {
   height: 150px;
@@ -342,7 +352,11 @@ padding: .8em;
 .footer .searchbar {
 	background-color: #b3e2f1;
 	color: #fff;
-	margin-top: 1em;
+	margin-top: 5em;
+}
+
+.footer .email-subscribe {
+	margin-top: 2em;
 }
 
 .footer .email-subscribe label {
