@@ -292,7 +292,6 @@ a.nav-toggle:hover {
 }
 
 
-
 .header img {
   width: 100%;
   clear: both;
@@ -313,6 +312,15 @@ a.nav-toggle:hover {
 	text-align: center;
 }
 
+.about {
+	margin: 10%;
+	margin-top: 5%;
+}
+
+.about img {
+	width: 80%;
+	margin: 10%;
+}
 
 .col-3 {
 	float: left;
@@ -562,6 +570,16 @@ Description: Define screen-size breakpoints here.
 	.header img {
 		margin-top: 8em;
 		}
+
+	.about {
+		margin: 15%;
+	}
+
+	.about p {
+		font-size: 1.5em;
+		line-height: 1.5em;
+		margin-bottom: 10%:
+	}
 
 	.col-3 {
 		display: block;
