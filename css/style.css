@@ -129,6 +129,7 @@ margin-bottom: 10px;
 .homepage01 {
   background: url("../image/homepage.jpg");
   width: 100%;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -225,16 +226,17 @@ list-style: none;
 
 /* ABOUT */
 .about {
-  padding-top: 150px;
+  padding-top: 140px;
 }
 
 .about:after {
-  background: url("../image/navigation-background-green");
+  background: url("../image/navigation-background-green.png") -145px;
   width: 100%;
   height: 47px;
   position: absolute;
   bottom: -1px;
   overflow: hidden;
+  left: 0;
 }
 
 .about-image {
@@ -259,7 +261,19 @@ margin: 20px;
 }
 
 /* LOCATION */
+.location {
+  padding-top: 150px;
+}
 
+.location:after {
+  background: url("../image/navigation-background-pink.png") -145px;
+  width: 100%;
+  height: 47px;
+  position: absolute;
+  bottom: -1px;
+  overflow: hidden;
+  left: 0;
+}
 
 /* GALLERY */
 
