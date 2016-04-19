@@ -241,7 +241,7 @@ background: #000;
 }
 
 .h4 {
-	font-style: italic;
+	font-family: 'Libre Baskerville', serif;
 }
 
 /* SECTION 03 */
@@ -253,14 +253,15 @@ background: #000;
 .footer {
 	background: #b82222;
 	float: left;
-	width: 100%
+	width: 100%;
+	text-align: center;
 }
 
 .footer ul {
 	margin-top: 2.25em;
 	list-style: none;
 	text-align: center;
-	display: block;
+	display: inline-block;
 }
 
 .footer li {
@@ -315,4 +316,13 @@ Description: Define screen-size breakpoints here.
 
 }
 
-/* @FONT-FACE (Webfonts) */
+/* @FONT-FACE */
+@font-face {
+  font-family: 'LibreBaskerville-Italic';
+  src: url('../fonts/librebaskerville-italic-webfont.eot');
+  src: url('../fonts/librebaskerville-italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/librebaskerville-italic-webfont.woff2') format('woff2'),
+       url('../fonts/librebaskerville-italic-webfont.woff') format('woff'),
+       url('../fonts/librebaskerville-italic-webfont.ttf') format('truetype'),
+       url('../fonts/librebaskerville-italic-webfont.svg#librebaskerville-italic-webfont') format('svg');
+}
