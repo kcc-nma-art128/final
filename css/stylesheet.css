@@ -50,11 +50,13 @@ h2 {
 }
 
 h3 {
+	font-family: serif;
 	text-align: center;
 	font-size: .85em;
 	line-height: 1.25em; }
 
 h4 {
+	font-family: serif;
 	text-align: center;
 	font-size: 1em;
 	line-height: 1.3em;
@@ -118,7 +120,7 @@ body {
 .home nav h1 {
 	float: left;
 	margin: 2em 0 0 5.5em;
-	color: #6d4838
+	color: #6d4838;
 }
 
 .home nav ul {
@@ -147,17 +149,19 @@ padding: .8em;
 .home h2{
 	margin-top: 7em;
 	padding: .5em;
-	color: #fff
+	color: #fff;
 }
 
 .home h3 {
 	padding: .5em;
-	color: #fff
+	color: #fff;
 }
 
 .home h4 {
 	padding: .5em;
-	color: #fff
+	color: #fff;
+	font-style: italic;
+
 }
 
 
@@ -167,25 +171,28 @@ padding: .8em;
 
 .about h2{
 	margin-top: 2.5em;
-	color: #6d4838
+	color: #6d4838;
 }
 
 .about h3 {
 	font-size: 1.2em;
+	font-style: italic;
 	padding: 2em 0 .5em 0;
-	color: #6d4838
+	color: #6d4838;
 }
 
 .about h4 {
 	font-size: .8em;
+	font-style: italic;
 	padding: .2em 0 3em 0;
-	color: #6d4838
+	color: #6d4838;
 }
 
 .about p{
+	font-family: serif;
 	font-size: .9em;
 	text-align: center;
-	color: #6d4838
+	color: #6d4838;
 }
 
 .activity {
@@ -224,6 +231,7 @@ padding: .8em;
 }
 
 .activity h3{
+	font-family: sans-serif;
 	font-size: .9em;
 	color: #fff;
 	background-color: #5bb9ee;
@@ -238,7 +246,7 @@ padding: .8em;
 
 .activity ul li {
 	font-size: .85em;
-	display: block
+	display: block;
 }
 
 .activity ul li small {
@@ -246,11 +254,13 @@ padding: .8em;
 	display: block;
 	font-weight: normal;
 	color: #6d4838;
+	margin: -0.5em 0 .7em 0;
 }
 
 .activity ul li a {
 	font-size: .8em;
 	color: #5bb9ee;
+	margin-top: 1em;
 }
 
 
@@ -271,7 +281,7 @@ padding: .8em;
 
 .location h2{
 	color: #fff;
-	margin: 2em;
+	margin: 4em 0 2em 0;
 }
 
 .location ul {
@@ -290,6 +300,7 @@ padding: .8em;
 }
 
 .location h4{
+	font-family: sans-serif;
 	text-align: left;
 	margin-top: 1.5em;
 	color: #fff;
@@ -321,6 +332,7 @@ padding: .8em;
 }
 
 .contact h3{
+	font-family: sans-serif;
 	text-align: left;
 	font-size: 1em;
 	color: #fff;
@@ -329,6 +341,7 @@ padding: .8em;
 }
 
 .contact p{
+	font-family: sans-serif;
 	margin-top: 1em;
 	margin-left: 1em;
 	font-size: 1em;
@@ -340,7 +353,7 @@ padding: .8em;
 }
 
 .footer {
-  height: 150px;
+  height: 120px;
 	background: #fff;
 }
 
@@ -352,20 +365,23 @@ padding: .8em;
 .footer .searchbar {
 	background-color: #b3e2f1;
 	color: #fff;
-	margin-top: 5em;
+	margin: 4em;
 }
 
-.footer .email-subscribe {
-	margin-top: 2em;
+.footer .fa {
+	margin: 3em 2em 0 2em;
 }
 
 .footer .email-subscribe label {
 	display: block;
+
 }
 
 .footer p {
+	font-family: sans-serif;
 	font-size: .9em;
-	color: #6d4838
+	color: #6d4838;
+	margin-top: 1.5em;
 }
 
 .footer ul {
@@ -377,7 +393,7 @@ padding: .8em;
 
 .footer ul li{
 	float: left;
-	margin-right: 1em;
+	margin: -1.5em 1em 0 0;
 }
 
 .footer .subscribe {
@@ -385,26 +401,89 @@ padding: .8em;
 }
 
 
-
-
-
-/* SECTIONS
-Description: Style major site sections here.
-(e.g. header, navs/navigation, site-specific content sections,
-asides, sidebars, footer, sub page-specific styling, etc.)
-===================================== */
-/* HEADER */
-/* MAIN NAV */
-/* SECTION 01 */
-/* SECTION 02 */
-/* footer */
-
-
-
-/* MEDIA QUERIES
-Description: Define screen-size breakpoints here.
-(e.g. Desktop, Tablet, Mobile)
-===================================== */
-
 /* @FONT-FACE (Webfonts)
 ===================================== */
+h1 {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+}
+h3 {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.3999996185303px;
+}
+p {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714302062988px;
+}
+
+
+
+
+h1 {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+}
+h3 {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.3999996185303px;
+}
+p {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+blockquote {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714302062988px;
+}
