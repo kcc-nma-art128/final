@@ -238,7 +238,8 @@ color:#fff;
 
 
 
-
+/*???????active nav???????/
+?????????Move to the page section????????*/
 /*MAIN NAV=====================================*/
 .mainnav {
 position: fixed;
@@ -520,6 +521,102 @@ right: 16px;
 
 
 /*<!--section3:MENU------------------------->*/
+
+.section03{
+  background-color: #f6f5f0;
+  background-image: url(../images/bg3.png);
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position: bottom;
+  padding-bottom: 4em;
+}
+.menu-title{
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position: top;
+  background-image: url('../images/menu-title.png');
+}
+
+.menu-title h1{
+  font: 7.75em  'ITCAvantGardeStd-Demi',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f6f5f0;
+  padding: 17% 0 3% 0;
+}
+
+.subnav{
+position: relative;
+}
+
+.subnav ul {
+  list-style: none;
+  position: absolute;
+  top:-100%;
+  left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
+}
+.subnav li {
+text-transform: uppercase;
+font-size: 1em;
+margin-right: 2em;
+display: inline-block;
+}
+.subnav a:active,.subnav a:hover{
+  background: transparent;
+  color: #b0b601;
+}
+.subnav a{
+  font-family:'ITCAvantGardeStd-Md',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  color: #b0b601;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 0.7em 1.5em 0.5em ;
+  border-radius: 10px;
+}
+
+/*========DINNER============*/
+.section03 h3{
+  font: 2.5em 'ITCAvantGardeStd-DemiCn',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  color: #b0b601;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.section03 h4{
+  font: 1em 'ITCAvantGardeStd-DemiCn',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  line-height: 0.75em;
+
+}
+.section03 p{
+  font: 0.75em 'ITCAvantGardeStd-BkObl',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  line-height: 1.75em;
+}
+.section03 ul{
+  list-style: none;
+  display: inline-block;
+}
+.section03 li{
+  margin-bottom: 8%;
+}
+.dinner{
+  margin: auto;
+  padding: 10% 0 0 0;
+
+}
+.col3a{
+  position: relative;
+  width: 38%;
+  float: left;
+  padding: 0 5% ;
+}
+
+.col3a:last-of-type{
+  float: right;
+}
+
 
 
 
@@ -976,7 +1073,7 @@ right: 85px;
     .col02{
       position: relative;;
       display: inline-block;
-      width: 70%;
+      width: 60%;
       padding: 0 25% ;
 
 
@@ -986,6 +1083,12 @@ right: 85px;
 
     }
 
+
+
+/*-------------section03-------------------*/
+.menu-title h1{
+  font-size: 6em;
+}
 /*-------------section04-------------------*/
 .gallery-title h1{
   font-size: 6em;

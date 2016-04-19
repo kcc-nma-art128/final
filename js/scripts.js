@@ -111,3 +111,46 @@ function showDivs3(n) {
     }
     x[slideIndex-1].style.display = "block";
 }
+
+
+
+
+
+
+
+
+
+// ACTIVE STATE
+var $sections = $('.section01,.section02,.section03,.section04,.section05');
+var $mainNav = $(".mainnav");
+var navOffset = 50;
+$(window).scroll(function() {
+  var currentPosition = $(this).scrollTop();
+
+  $sections.each(function() {
+    var top = $(this).offset().top -navOffset;
+    var bottom = top + $(this).height();
+
+    if (currentPosition >= top && currentPosition <= bottom) {
+      $mainNav.find('a').removeClass('active');
+      $sections.removeClass('active');
+
+      $(this).addClass('active');
+      $mainNav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+    }
+  });
+
+});
+
+
+// SMOOTH SCROLL
+$(".mainnav a").click(function(e) {
+  e.preventDefault();
+
+  var $this = $(this);
+  var sectionId = $this.attr('href');
+
+  $('html, body').animate({
+    scrollTop: $(sectionId).offset().top
+  }, 750);
+});
