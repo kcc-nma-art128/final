@@ -260,14 +260,24 @@ background: #000;
 	margin-top: 2.25em;
 	list-style: none;
 	text-align: center;
-
+	display: block;
 }
 
-.main-nav li {
+.footer li {
 	margin: 0;
 	float: left;
 	padding: 2em;
 	padding-bottom: 0;
+}
+
+.footer li:after {
+	content: "|";
+	color: #fff;
+}
+
+.footer li:before last-child {
+	content: "|";
+	color: #fff;
 }
 
 /* MEDIA QUERIES
