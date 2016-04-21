@@ -34,15 +34,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1em;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: .8em;
 	line-height: 2em;
-	color: #999;
 	font-weight: normal;
 	text-align: left;
 }
 
 h2 {
-	font-family: serif;
+	font-family: Baskerville, 'Baskerville std Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	text-align: center;
 	font-size: 2.25em;
   line-height: 1.1em;
@@ -72,8 +72,9 @@ h6 {
 	 line-height: 1.4em;
  }
 
-/* PARAGPRAHS */
+
 p {
+	font-size: .8em;
   margin-bottom: 1.25em;
 }
 /* #Links
@@ -119,6 +120,7 @@ body {
 
 .home nav h1 {
 	float: left;
+	font-size: 1em;
 	margin: 2em 0 0 5.5em;
 	color: #6d4838;
 }
@@ -130,7 +132,9 @@ body {
 }
 
 .home nav ul li{
-	display: inline-block
+	display: inline-block;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+
 }
 
 .home nav ul li a{
@@ -148,19 +152,24 @@ padding: .8em;
 
 .home h2{
 	margin-top: 7em;
-	padding: .5em;
 	color: #fff;
+	font-family: serif;
+	font-weight: lighter;
+	font-size: 2.5em;
 }
 
 .home h3 {
-	padding: .5em;
+	font-size: 1.2em;
+	padding: 1em 0 .6em;
 	color: #fff;
+	font-family: serif;
 }
 
 .home h4 {
-	padding: .5em;
+	font-size: 1.2em;
 	color: #fff;
 	font-style: italic;
+	font-weight: lighter;
 
 }
 
@@ -170,19 +179,20 @@ padding: .8em;
 }
 
 .about h2{
-	margin-top: 2.5em;
+	margin: 2.5em 0 .8em 0;
 	color: #6d4838;
 }
 
 .about h3 {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-style: italic;
+	font-family: serif;
 	padding: 2em 0 .5em 0;
 	color: #6d4838;
 }
 
 .about h4 {
-	font-size: .8em;
+	font-size: 1em;
 	font-style: italic;
 	padding: .2em 0 3em 0;
 	color: #6d4838;
@@ -239,28 +249,31 @@ padding: .8em;
 }
 
 .activity ul{
-	margin: 2em 2em 2em 1em;
+	margin: 2em 0 5em 1em;
 	color: #6d4838;
 	list-style: none;
 }
 
 .activity ul li {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	margin-top: .5em;
 	font-size: .85em;
 	display: block;
+	line-height: 1.6em;
 }
 
 .activity ul li small {
 	font-size: .8em;
 	display: block;
-	font-weight: normal;
 	color: #6d4838;
-	margin: -0.5em 0 .7em 0;
+	margin: -0.5em 0 -0.5em 0;
 }
 
 .activity ul li a {
-	font-size: .8em;
+	font-size: .7em;
 	color: #5bb9ee;
-	margin-top: 1em;
+	margin-top: -1em;
+	display: inline-block;
 }
 
 
@@ -292,15 +305,17 @@ padding: .8em;
 	font-size: 1.5em;
 	padding-top: .5em;
 	color: #fff;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
 .location ul li small{
 	font-size: .8em;
 	color: #fff;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
 .location h4{
-	font-family: sans-serif;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	text-align: left;
 	margin-top: 1.5em;
 	color: #fff;
@@ -313,6 +328,7 @@ padding: .8em;
 	background-color: #b3e2f1;
 	display: inline-block;
 	border-radius: 7px;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
 
@@ -332,7 +348,7 @@ padding: .8em;
 }
 
 .contact h3{
-	font-family: sans-serif;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	text-align: left;
 	font-size: 1em;
 	color: #fff;
@@ -341,7 +357,7 @@ padding: .8em;
 }
 
 .contact p{
-	font-family: sans-serif;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	margin-top: 1em;
 	margin-left: 1em;
 	font-size: 1em;
@@ -364,12 +380,36 @@ padding: .8em;
 
 .footer .searchbar {
 	background-color: #b3e2f1;
-	color: #fff;
 	margin: 4em;
+	border: none;
 }
 
-.footer .fa {
-	margin: 3em 2em 0 2em;
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;
+}
+
+:-ms-input-placeholder {
+   color: white;
+}
+
+.footer .social-media {
+	color: white;
+	display: inline-block;
+	background-color: #5bb9ee;
+	margin: 3em 1em 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 2.5em;
 }
 
 .footer .email-subscribe label {
@@ -403,87 +443,3 @@ padding: .8em;
 
 /* @FONT-FACE (Webfonts)
 ===================================== */
-h1 {
-	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.3999996185303px;
-}
-h3 {
-	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 15.3999996185303px;
-}
-p {
-	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-}
-blockquote {
-	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-	font-size: 21px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 30px;
-}
-pre {
-	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-	font-size: 13px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 18.5714302062988px;
-}
-
-
-
-
-h1 {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.3999996185303px;
-}
-h3 {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 15.3999996185303px;
-}
-p {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-}
-blockquote {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-size: 21px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 30px;
-}
-pre {
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-size: 13px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 18.5714302062988px;
-}
