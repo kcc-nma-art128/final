@@ -18,3 +18,11 @@ $(function() {
 		$parent.find('.result').children('span').html($selected);
 	});
 });
+
+
+$(function() {
+  $('.time-picker-opener').on('click', function(e) {
+    e.preventDefault();
+    $('.time-picker-options').toggleClass('time-picker-options-open');
+  })
+});
