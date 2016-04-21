@@ -314,8 +314,15 @@ a.nav-toggle:hover {
 }
 
 .about {
-	margin: 10%;
-	margin-top: 5%;
+	margin: 0 auto;
+	width: 60%;
+	padding-top: 5%;
+}
+
+.about p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	font-weight: 300;
 }
 
 .about img {
@@ -371,13 +378,10 @@ a.nav-toggle:hover {
 	font-weight: 300;
 }
 
-.faq ul span {
-	border: none;
-}
-
 .tickets {
 	margin: 0 auto;
 	width: 80%;
+	padding: 5%;
 }
 
 .tickets p {
@@ -385,6 +389,44 @@ a.nav-toggle:hover {
 	line-height: 1.6em;
 	font-weight: 300;
 }
+
+.tickets a {
+	float: right;
+	color: #000;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	border-radius: 8px;
+  padding: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+
+}
+
+.tickets img {
+	float: left;
+	margin-right: 5%;
+}
+
+.tickets ul li {
+	list-style-type: none;
+	margin: 8%;
+}
+
+.tickets h3 {
+	text-transform: uppercase;
+	line-height: .8em;
+}
+
+.tickets h4 {
+	line-height: .8em;
+}
+
+.tickets h5 {
+	line-height: .8em;
+	font-size: 1em;
+	font-weight: 300;
+}
+
 
 .col-3 {
 	float: left;
@@ -627,17 +669,13 @@ Description: Define screen-size breakpoints here.
 		float: none;
 		margin-left: 0;
 		text-align: center;
-		margin: 5%;
+		margin: 6%;
 	}
 
   .nav img {
 		clear: both;
   }
 
-	.nav a:hover {
-		background: #000;
-		color: #fff;
-	}
 
 	a.nav-toggle {
 		display: block;
@@ -649,18 +687,19 @@ Description: Define screen-size breakpoints here.
 		}
 
 	.about {
-		margin: 15%;
+		width: 80%;
 	}
 
 	.about p {
 		font-size: 1.5em;
 		line-height: 1.5em;
 		margin-bottom: 10%:
+		margin-top: 10%;
 	}
 
 	.faq {
 		margin: 0 auto;
-		width: 90%;
+		width: 85%;
 		padding-bottom: 5%;
 	}
 
@@ -671,7 +710,15 @@ Description: Define screen-size breakpoints here.
 	}
 
 	.faq h5 {
-		font-size: 1em;
+		font-size: 0.9em;
+	}
+
+	.faq p {
+		font-size: 80%;
+	}
+
+	.tickets p {
+		font-size: 1.5em;
 	}
 
 	.col-3 {
