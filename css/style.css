@@ -236,7 +236,7 @@ h2 {
 .menu-button {
 	color: #fff;
 	background: #b82222;
-	padding: 10px 20px;
+	padding: 7px 20px;
 	display: inline-block;
 }
 
@@ -401,7 +401,12 @@ h4 {
   background: #843E3E;
 }
 
-
+.reserve-button {
+	color: #fff;
+	background: #b82222;
+	padding: 7px 40px;
+	display: inline-block;
+}
 
 /* FOOTER */
 .footer {
