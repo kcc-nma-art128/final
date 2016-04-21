@@ -256,6 +256,19 @@ margin: 20px;
 }
 
 /* GALLERY */
+.heading {
+ padding-top: 150px;
+ text-align: center;
+}
+.fancybox img {
+  width: 200px;
+}
+
+.gallery .col-1 {
+  text-align: center;
+}
+
+
 
 
 /* FOOTER */
