@@ -287,6 +287,7 @@ a.nav-toggle:hover {
   background: #000;
   transform: rotate(45deg);
 }
+
 .nav-toggle.active:after {
   transform: rotate(-45deg);
 }
@@ -320,6 +321,69 @@ a.nav-toggle:hover {
 .about img {
 	width: 80%;
 	margin: 10%;
+}
+
+.faq {
+	margin: 0 auto;
+	width: 70%;
+	padding-bottom: 5%;
+}
+
+.faq h1 {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.faq ul {
+	list-style-type: none;
+}
+
+.faq h5 {
+	padding: 0.5em;
+	font-size: 1.5em;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin: 1%;
+	font-weight: 300;
+}
+
+.faq i {
+	float: right;
+}
+
+.faq img {
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 8%;
+}
+
+.faq p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	font-weight: 300;
+	display: none;
+	padding: 5%;
+}
+
+.faq h3 {
+	font-size: 1.5em;
+	line-height: 1.6em;
+	font-weight: 300;
+}
+
+.faq ul span {
+	border: none;
+}
+
+.tickets {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.tickets p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	font-weight: 300;
 }
 
 .col-3 {
@@ -556,11 +620,24 @@ Description: Define screen-size breakpoints here.
 		margin: auto;
 		font-size: 1.2em;
 		display: none;
+		float: none;
+	}
+
+	.nav ul li {
+		float: none;
+		margin-left: 0;
+		text-align: center;
+		margin: 5%;
 	}
 
   .nav img {
 		clear: both;
   }
+
+	.nav a:hover {
+		background: #000;
+		color: #fff;
+	}
 
 	a.nav-toggle {
 		display: block;
@@ -579,6 +656,22 @@ Description: Define screen-size breakpoints here.
 		font-size: 1.5em;
 		line-height: 1.5em;
 		margin-bottom: 10%:
+	}
+
+	.faq {
+		margin: 0 auto;
+		width: 90%;
+		padding-bottom: 5%;
+	}
+
+	.faq ul li {
+		font-size: 2em;
+		line-height: 1.2em;
+		margin: 2%;
+	}
+
+	.faq h5 {
+		font-size: 1em;
 	}
 
 	.col-3 {

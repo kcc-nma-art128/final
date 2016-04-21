@@ -14,3 +14,9 @@ $window.on('resize', function() {
     $navToggle.addClass('active');
   }
 });
+
+var $faqToggle = $('.faq h5');
+$faqToggle.on('click', function() {
+  $('.faq p').slideUp();
+  $(this).siblings().slideToggle();
+});
