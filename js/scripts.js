@@ -1,4 +1,9 @@
 
+
+
+
+
+
 //////////////////////////////////////////////NAV
 $(function() {
   var $navToggle = $('.nav-toggle');
@@ -111,6 +116,8 @@ function showDivs3(n) {
     }
     x[slideIndex-1].style.display = "block";
 }
+
+
 
 
 
