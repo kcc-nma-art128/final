@@ -253,6 +253,8 @@ background: rgba(0, 0, 0, 0.7);
 
 .mainnav ul {
   margin: auto;
+  margin-top: -8%;
+  padding: 0 5%;
   list-style: none;
 }
 .mainnav li{
@@ -260,27 +262,36 @@ font-family:'ITCAvantGardeStd-Md',Avant Garde, Avantgarde, 'Century Gothic', Cen
 text-transform: uppercase;
 font-size: 0.8825em;
 display: inline-block;
-padding: 70px 50px 10px 0;
+
+}
+.col0a li{
+  padding: 0 0 0.5em 3em;
 }
 
-.mainnav li:nth-child(3){
-padding-right: 250px;
+.col0b li{
+  padding: 0 3em 0.5em 0;
 }
 
-.mainnav li:nth-child(6){
-padding-right: 0px;
+.col0a,.col0b{
+  display: inline-block;
+  position: relative;
+
 }
+.col0a{
+  margin-right: 12%;
+}
+.col0b{
+  margin-left: 12%;
+}
+
+
 
 .logo {
-background-repeat: no-repeat;
-background-size: 32px 59px;
-width: 150px;
-height: 75px;
-position: static;
-margin: auto;
-position: absolute;
-top: 10px;
-left: 380px;
+display: inline-block;
+width: 8em;
+margin-top: 3em;
+transform: translate(-25%, -50%);
+
 }
 .mainnav li a:hover {
   color: #ffb700;
@@ -293,53 +304,6 @@ left: 380px;
   background: transparent;
 }
 /*--------------------------------*/
-.nav-toggle {
-  display: none;
-  box-sizing: border-box;
-  width: 40px;
-  height: 20px;
-  position: absolute;
-  top: 20px;
-  right:25px;
-}
-
-.nav-toggle:hover {
-  background: transparent;
-}
-
-.nav-toggle:before, .nav-toggle:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: all .5s;
-}
-
-.nav-toggle:before {
-  border-top: 4px solid #fff;
-  border-bottom: 4px solid #fff;
-}
-
-.nav-toggle:after {
-  top: 12px;
-  height: 4px;
-  background: #fff;
-}
-
-.nav-toggle.active:before {
-  border: 0;
-  top: 12px;
-  height: 4px;
-  background: #fff;
-  transform: rotate(45deg);
-}
-.nav-toggle.active:after {
-  transform: rotate(-45deg);
-}
-
-/*--------------------------*/
 
 
 /*SEARCHBAR------------------------------------------------*/
@@ -351,32 +315,27 @@ left: 380px;
     font-weight:lighter;
     font-style: italic;
     color: #bebebe;
-    width: 110px;
-    padding: 6px 30px 6px 1px;
+    width: 12em;
+    padding: 4px 30px 4px 1px;
     border-radius: 10px;
     position: absolute;
     top:15px;
-    right:65px;
+    right:100px;
     }
 
-/*search icon*/
 .button-search{
   position: absolute;
-  top:17px;
-  right: 75px;
+  top:12px;
+  right: 105px;
 }
-/*----------------------*/
 
 
 
 
+/*=======================================PAGES===========================================*/
 
+/*<!--section1----------------------->*/
 
-
-
-/*========================================PAGES===========================================*/
-
-/*<!--section1------------------------->*/
 .section01{
     background-image: url(../images/bg1.png);
     background-repeat: no-repeat;
@@ -425,12 +384,10 @@ border-color: transparent;
 }
 /*----------01B--------------*/
 .welcome{
-  width: 45%;
+width: 45%;
  margin: auto;
 }
-.welcome p{
 
-}
 .welcome h3{
   font-family:'ITCAvantGardeStd-Md',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-size: 2.5em;
@@ -592,7 +549,7 @@ display: inline-block;
   text-transform: uppercase;
   text-align: center;
   background-color: #f6f5f0;
-  margin:-5% 35% 5% 35%;
+  margin:-3% 35% 5% 35%;
   padding: 0.25em 0 0 0;
 }
 
@@ -643,12 +600,12 @@ display: inline-block;
 
 
 /*>>>>>>>>>>dinner>>>>>>>>>>>>>*/
-.dinner, .dessert{
-margin: 10% 0 5% 0;
+.dinner,.dessert{
+margin: 10% 0 10% 0;
 padding:0 0 5% 0;
- border: 1px solid #333;
-
+border: 1px solid #333;
 }
+
 
 .col3a{
   position: relative;
@@ -678,6 +635,7 @@ padding:0 0 5% 0;
 
 /*>>>>>>>>>>>>>>>liquid>>>>>>>>>>*/
 
+
 .col3b{
   position: relative;
   width: 30%;
@@ -693,12 +651,12 @@ padding:0 0 5% 0;
   border: 1px solid #333;
 }
 
-.col3b h3{
+.col3b h3:first-of-type{
   margin: -5% 0 5% 0;
 }
-
-
-
+.col3c h3{
+  margin: -5% 20% 5% 20%;
+}
 
 
 
@@ -1026,27 +984,26 @@ body {
   width: 92%;
   }
 
-/*------------------------nav--------------------*/
-.mainnav li{
-margin: auto;
-padding: 105px 72px 5px 0;
+/*------------------nav----------------*/
+
+header {
+  font-size: 85%;
 }
 
-.mainnav li:nth-child(3){
-padding-right: 72px;
+
+.col0a li:first-of-type,{
+padding-right: 0;
+}
+.col0b li:last-of-type{
+  padding-left: 0;
 }
 
-.logo {
-position: absolute;
-top: 10px;
-left: 40%;
-}
 /*-------------section01-------------------*/
 .head-typo {
   width: 90%;
   font-size: 80%;
+}
 
-  }
 .welcome {
 width: 50%;
 }
@@ -1073,7 +1030,7 @@ width: 50%;
 
 
 body {
-    font-size: 75%; /* 12px / 16px = 0.75 * 100 = 75% */
+    font-size: 70%; /* 12px / 16px = 0.75 * 100 = 75% */
   }
   .container {
     width: 96%;
@@ -1081,46 +1038,25 @@ body {
 
 
 /*-------------NAV-------------------*/
-.logo {
-width: 80px;
-position: absolute;
-top: 10px;
-left: 10px;
-}
+
+
+
 .mainnav input[type="text"] {
+  float: right;
   position: absolute;
-  top:25px;
-  right:80px;
+  top:15px;
+  right:5%;
   }
 .button-search{
 position: absolute;
-top:30px;
-right: 85px;
+top:15px;
+right: 6%;
 }
 
-.mainnav ul {
- padding: 60px 0 3px 0;
- display: block;
+.logo{
+ float: left;
+ margin-left: 10%;
  }
-
- .mainnav li {
-   float: none;
-   margin: 20px 0 0 0;
-   padding: 0;
-   text-align: center;
-   display: none;
-  }
- .mainnav li:nth-child(3){
-   padding: 0;
- }
- .mainnav li a:hover {
-   padding: 15px 50px 5px 50px;
- }
-
- a.nav-toggle {
-   display: block;
- }
-
 
 
 
@@ -1131,9 +1067,10 @@ right: 85px;
     font-size: 70%;
     }
 
-    .welcome {
+  .welcome {
     width: 60%;
     }
+
 
 /*-------------section02-------------------*/
 .about-title h1{
@@ -1141,7 +1078,6 @@ right: 85px;
 }
     .col02{
       position: relative;;
-      display: inline-block;
       width: 60%;
       padding: 0 25% ;
 
@@ -1158,7 +1094,18 @@ right: 85px;
 .menu-title h1{
   font-size: 6em;
 }
-/*-------------section04-------------------*/
+
+.col3a, .col3a:last-of-type, .col3b, .col3c{
+  width: 70%;
+  float: none;
+  margin:auto;
+}
+.col3b{
+  margin-bottom: 10%;
+}
+
+/*------------section04-------------------*/
+
 .gallery-title h1{
   font-size: 6em;
   }
