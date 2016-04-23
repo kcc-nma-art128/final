@@ -512,10 +512,11 @@ pointer-events:auto;
 	color: #fff;
 }
 
+/*SOCIAL ICONS*/
 .icon-link {
   width: 60px;
   height: 60px;
-  background-color: #666;
+  background-color: #fff;
   line-height: 60px;
   text-align: center;
   vertical-align: middle;
@@ -569,84 +570,6 @@ pointer-events:auto;
   -webkit-transition: color 150ms ease-in-out;
   transition: color 150ms ease-in-out;
 }
-.icon-link.fill.reddit {
-  background-color: #8bbbe3;
-}
-.icon-link.fill.reddit:hover {
-  background-color: #fff;
-}
-.icon-link.fill.reddit:hover .fa-reddit {
-  color: #8bbbe3;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-.icon-link.fill.youtube {
-  background-color: #df1c31;
-}
-.icon-link.fill.youtube:hover {
-  background-color: #fff;
-}
-.icon-link.fill.youtube:hover .fa-youtube {
-  color: #df1c31;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-.icon-link.fill.pinterest {
-  background-color: #b81621;
-}
-.icon-link.fill.pinterest:hover {
-  background-color: #fff;
-}
-.icon-link.fill.pinterest:hover .fa-pinterest {
-  color: #b81621;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-.icon-link.fill.github {
-  background-color: #444;
-}
-.icon-link.fill.github:hover {
-  background-color: #fff;
-}
-.icon-link.fill.github:hover .fa-github {
-  color: #444;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-.icon-link.fill.envelope {
-  background-color: #333;
-}
-.icon-link.fill.envelope:hover {
-  background-color: #fff;
-}
-.icon-link.fill.envelope:hover .fa-envelope {
-  color: #333;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-.icon-link.fill.soundcloud {
-  background-color: #f50;
-}
-.icon-link.fill.soundcloud:hover {
-  background-color: #fff;
-}
-.icon-link.fill.soundcloud:hover .fa-soundcloud {
-  color: #f50;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-.icon-link.brand {
-  background-color: #fff;
-}
-.icon-link.brand .fa {
-  color: #006FC2;
-}
-.icon-link.round {
-  border-radius: 50%;
-}
-.icon-link.round-corner {
-  border-radius: 5px;
-}
 .icon-link:hover {
   -webkit-transition: background-color 150ms ease-in-out;
   transition: background-color 150ms ease-in-out;
@@ -667,24 +590,7 @@ pointer-events:auto;
 .icon-link:hover.google-plus {
   border: 2px solid #dd4b39;
 }
-.icon-link:hover.reddit {
-  border: 2px solid #8bbbe3;
-}
-.icon-link:hover.youtube {
-  border: 2px solid #df1c31;
-}
-.icon-link:hover.pinterest {
-  border: 2px solid #b81621;
-}
-.icon-link:hover.github {
-  border: 2px solid #444;
-}
-.icon-link:hover.envelope {
-  border: 2px solid #333;
-}
-.icon-link:hover.soundcloud {
-  border: 2px solid #f50;
-}
+
 .icon-link:hover .fa {
   line-height: 56px;
 }
@@ -708,44 +614,13 @@ pointer-events:auto;
   -webkit-transition: color 150ms ease-in-out;
   transition: color 150ms ease-in-out;
 }
-.icon-link:hover .fa-reddit {
-  color: #8bbbe3;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-.icon-link:hover .fa-youtube {
-  color: #df1c31;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-.icon-link:hover .fa-pinterest {
-  color: #b81621;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-.icon-link:hover .fa-github {
-  color: #444;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-.icon-link:hover .fa-envelope {
-  color: #333;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
-.icon-link:hover .fa-soundcloud {
-  color: #f50;
-  -webkit-transition: color 150ms ease-in-out;
-  transition: color 150ms ease-in-out;
-}
 .icon-link .fa {
-  color: #fff;
+  color: #b82222;
   line-height: 60px;
   font-size: 36px;
 }
 
 .brand-icons {
-  background-color: #ddd;
   padding: 10px 0;
 }
 
