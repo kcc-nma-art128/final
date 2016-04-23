@@ -477,6 +477,12 @@ pointer-events:auto;
 	display: inline-block;
 }
 
+/*HISTORY PAGE*/
+main {
+	background: #211A17;
+	
+}
+
 /* FOOTER */
 .footer {
 	background: #b82222;
