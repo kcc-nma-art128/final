@@ -487,6 +487,7 @@ pointer-events:auto;
 
 .footer ul {
 	margin-top: 2.25em;
+	margin-left: 50px;
 	list-style: none;
 	text-align: center;
 	display: inline-block;
