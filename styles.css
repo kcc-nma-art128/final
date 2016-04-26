@@ -442,6 +442,28 @@ a.nav-toggle:hover {
 	font-weight: 300;
 }
 
+.gallery {
+	margin: 0 auto;
+	width: 60%;
+	padding: 5%;
+}
+
+.gallery img {
+	margin: 1%;
+}
+
+.gallery h5 {
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.gallery h3 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2.5em;
+}
+
 
 .col-3 {
 	float: left;
@@ -529,8 +551,9 @@ a.nav-toggle:hover {
 .access .col-3 {
 	display: inline-block;
 	list-style-type: none;
-	width: 30%;
+	width: 28%;
 	text-align: left;
+	margin: 2%;
 }
 
 .access h3 {
@@ -637,6 +660,19 @@ Description: Define screen-size breakpoints here.
 		width: 30%;
 	}
 
+	.access h3 {
+		font-size: 1.5em;
+	}
+
+	.gallery {
+		width: 85%;
+	}
+
+	.gallery img {
+		margin: 0.5%;
+		width: 31%;
+	}
+
 }
 
 /* Tablet (Between 768px - 992px)*/
@@ -692,8 +728,22 @@ Description: Define screen-size breakpoints here.
 		margin: auto;
 	}
 
+
+
 	.access a {
 		font-size: 1em;
+	}
+
+	.access h3 {
+		font-size: 1.5em;
+	}
+
+	.access .col-3 h3 {
+		margin: 0;
+	}
+
+	.access .col-3 p {
+		width: 100%;
 	}
 
 	.tickets ul {
@@ -710,6 +760,15 @@ Description: Define screen-size breakpoints here.
 
 	.tickets .actions {
 		width: 25%;
+	}
+
+	.gallery img {
+		margin: 0.5%;
+		width: 48%;
+	}
+
+	.gallery {
+		width: 90%;
 	}
 
 	.footer ul {
@@ -880,10 +939,17 @@ Description: Define screen-size breakpoints here.
 
 	.access .col-3 {
 		width: 90%;
+		margin-top: 6%;
 	}
 
 	.access p {
 		font-size: 1.8em;
+		width: 100%;
+		line-height: 1.5em;
+	}
+
+	.access .col-3 h3 {
+		margin: 0;
 	}
 
 	.access a {
@@ -894,6 +960,19 @@ Description: Define screen-size breakpoints here.
 	.access img {
 		width: 120%;
 		margin: 0 auto;
+	}
+
+	.gallery img {
+		margin: 0.5%;
+		width: 100%;
+	}
+
+	.gallery h5 {
+		font-size: 1.8em;
+	}
+
+	.gallery h3 {
+		font-size: 3em;
 	}
 
 	.footer {
