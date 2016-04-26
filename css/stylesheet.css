@@ -125,7 +125,7 @@ body {
 		padding-bottom: 1em;
   }
 
-.main-nav {
+.mainnav {
 		position: fixed;
 		z-index: 999;
 		top: 0;
@@ -134,49 +134,47 @@ body {
 		color: #6d4838;
 	}
 
-.main-nav.about-nav {
+.mainnav.about-nav {
 	background: #5bb9ee;
 	color: white;
 }
 
-.main-nav.activity-nav {
+.mainnav.activity-nav {
 	background: #b3e2f1;
 	color: white;
 }
 
-.main-nav.location-nav {
+.mainnav.location-nav {
 	background: #6d4838;
 	color: white;
 }
 
-.main-nav.contact-nav {
+.mainnav.contact-nav {
 	background: #5bb9ee;
 	color: white;
 }
 
 
-
-
-.main-nav h1 {
+.mainnav h1 {
 	float: left;
-	font-size: 1em;
-	margin: 2em 0 0 1em;;
-
+	font-size: 1.2em;
+	margin: 1.5em 0 0 1em;
+	line-height: 30px;
 }
 
-.main-nav ul {
+.mainnav ul {
 	font-size: .8em;
 	float: right;
 	margin-top: 2em;
 }
 
-.main-nav ul li{
+.mainnav ul li{
 	display: inline-block;
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 
 }
 
-.main-nav ul li a{
+.mainnav ul li a{
 color: inherit;
 padding: .8em;
 }
