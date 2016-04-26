@@ -118,27 +118,66 @@ body {
   margin: 0 auto;
 }
 
-.home nav h1 {
+.logo {
+    width: 100px;
+		float: left;
+		padding-top: 1em;
+		padding-bottom: 1em;
+  }
+
+.main-nav {
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		width: 100%;
+		color: #6d4838;
+	}
+
+.main-nav.about-nav {
+	background: #5bb9ee;
+	color: white;
+}
+
+.main-nav.activity-nav {
+	background: #b3e2f1;
+	color: white;
+}
+
+.main-nav.location-nav {
+	background: #6d4838;
+	color: white;
+}
+
+.main-nav.contact-nav {
+	background: #5bb9ee;
+	color: white;
+}
+
+
+
+
+.main-nav h1 {
 	float: left;
 	font-size: 1em;
-	margin: 2em 0 0 5.5em;
-	color: #6d4838;
+	margin: 2em 0 0 1em;;
+
 }
 
-.home nav ul {
-	font-size: .75em;
+.main-nav ul {
+	font-size: .8em;
 	float: right;
-	margin: 2em 2em 0 0;
+	margin-top: 2em;
 }
 
-.home nav ul li{
+.main-nav ul li{
 	display: inline-block;
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 
 }
 
-.home nav ul li a{
-color: #6d4838;
+.main-nav ul li a{
+color: inherit;
 padding: .8em;
 }
 
@@ -151,7 +190,8 @@ padding: .8em;
 }
 
 .home h2{
-	margin-top: 7em;
+	margin-top: 0;
+	padding-top: 7em;
 	color: #fff;
 	font-family: serif;
 	font-weight: lighter;
@@ -249,14 +289,14 @@ padding: .8em;
 }
 
 .activity ul{
-	margin: 2em 0 5em 1em;
+	margin: 2.6em 0 3.1em 1em;
 	color: #6d4838;
 	list-style: none;
 }
 
 .activity ul li {
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	margin-top: .5em;
+	margin-top: 1em;
 	font-size: .85em;
 	display: block;
 	line-height: 1.6em;
@@ -266,13 +306,12 @@ padding: .8em;
 	font-size: .8em;
 	display: block;
 	color: #6d4838;
-	margin: -0.5em 0 -0.5em 0;
+	margin: 0 0 -0.3em 0;
 }
 
 .activity ul li a {
 	font-size: .7em;
 	color: #5bb9ee;
-	margin-top: -1em;
 	display: inline-block;
 }
 
@@ -379,9 +418,11 @@ padding: .8em;
 }
 
 .footer .searchbar {
+	padding: .3em;
 	background-color: #b3e2f1;
-	margin: 4em;
+	margin: 5em;
 	border: none;
+	border-radius: 4px;
 }
 
 ::-webkit-input-placeholder {
@@ -414,7 +455,6 @@ padding: .8em;
 
 .footer .email-subscribe label {
 	display: block;
-
 }
 
 .footer p {
@@ -438,6 +478,9 @@ padding: .8em;
 
 .footer .subscribe {
 	background-color: #b3e2f1;
+	border: none;
+	padding: .3em;
+	border-radius: 4px;
 }
 
 
