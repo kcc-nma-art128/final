@@ -488,13 +488,26 @@ pointer-events:auto;
 }
 
 /*HISTORY PAGE*/
+section .row img {
+	margin: 0 0 30px;
+	width: 100%;
+}
 h1 {
+	position: absolute;
+	padding: 0 1.5em 0 1.5em;
 	font-family: 'libre_baskervilleitalic', serif;
 	color: #000;
+	border-bottom: 2px solid #000;
 	}
+
 .history .section01 {
 	background: #211A17;
 
+}
+
+img {
+	width: 100%;
+	padding-bottom: 2em;
 }
 
 /*SECTION 02*/
