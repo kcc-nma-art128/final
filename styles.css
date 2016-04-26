@@ -793,7 +793,7 @@ Description: Define screen-size breakpoints here.
 	}
 
 	.about p {
-		font-size: 1.5em;
+		font-size: 1.8em;
 		line-height: 1.5em;
 		margin-bottom: 10%:
 		margin-top: 10%;
@@ -820,7 +820,36 @@ Description: Define screen-size breakpoints here.
 	}
 
 	.tickets p {
-		font-size: 1.5em;
+		font-size: 1.8em;
+	}
+
+	.tickets .info {
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.tickets img {
+		width: 100%;
+	}
+
+	.tickets h3, h4 {
+		font-size: 2.5em;
+		margin-top: 5%;
+	}
+
+	.tickets h5 {
+		font-size: 2em;
+	}
+
+	.tickets .actions {
+		width: 50%;
+		font-size: 1.8em;
+		text-align: center;
+		margin: 0 auto;
+		float: none;
+		clear: both;
+		padding: 3%;
 	}
 
 	.col-3 {
