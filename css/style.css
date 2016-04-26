@@ -168,6 +168,50 @@ margin-bottom: 10px;
   position: relative;
   padding-top: 150px;
 }
+.wrapper {
+  margin: 30px auto;
+  width: 80%;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+h1 + p {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 16px;
+}
+.tabs {
+  text-align: center;
+}
+.tabs li {
+  float: left;
+  width: 20%;
+  text-size: 20px;
+}
+.tabs a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #ccd3d2;
+  border-bottom: 2px solid #ccd3d2;
+}
+.tabs a:hover,
+.tabs a.active {
+  color: #d7abac;
+  border-bottom: 2px solid #d7abac;
+}
+.tabgroup div {
+  padding: 30px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .flavor-options ul{
   text-align: center;
