@@ -390,18 +390,6 @@ a.nav-toggle:hover {
 	font-weight: 300;
 }
 
-.tickets a {
-	float: right;
-	color: #000;
-	text-transform: uppercase;
-	border: 1px solid #000;
-	border-radius: 8px;
-  padding: 1%;
-	padding-left: 3%;
-	padding-right: 3%;
-
-}
-
 .tickets img {
 	float: left;
 	margin-right: 5%;
@@ -409,7 +397,34 @@ a.nav-toggle:hover {
 
 .tickets ul li {
 	list-style-type: none;
-	margin: 8%;
+	margin: 5%;
+}
+
+.tickets ul {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.tickets .info {
+	float: left;
+}
+
+.tickets .actions {
+	float: right;
+	width: 20%;
+}
+
+.tickets .actions a {
+	display: block;
+	color: #000;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	border-radius: 8px;
+	padding: 4%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	margin: 2%;
 }
 
 .tickets h3 {
@@ -471,6 +486,61 @@ a.nav-toggle:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+.access {
+		margin: 0 auto;
+		width: 80%;
+		padding: 5%;
+		clear: both;
+}
+
+.access p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	font-weight: 300;
+}
+
+.access a {
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	border: 1.5px solid #000;
+	border-radius: 10px;
+	width: 25%;
+	text-align: center;
+	padding: 0.3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.access img {
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
+	margin: 5%;
+}
+
+.access .col-3 {
+	display: inline-block;
+	list-style-type: none;
+	width: 30%;
+	text-align: left;
+}
+
+.access h3 {
+	text-transform: uppercase;
+	font-size: 2em;
+	text-align: left;
+}
+
+
+
 
 .footer {
 	background: #292728;
@@ -557,6 +627,18 @@ Description: Define screen-size breakpoints here.
 (e.g. Desktop, Tablet, Mobile)
 ===================================== */
 
+@media all and (min-width: 62em) and (max-width: 77.5em) {
+
+	.tickets ul {
+		width: 100%;
+	}
+
+	.tickets img {
+		width: 30%;
+	}
+
+}
+
 /* Tablet (Between 768px - 992px)*/
 @media all and (min-width: 48em) and (max-width: 62em) {
 
@@ -608,6 +690,26 @@ Description: Define screen-size breakpoints here.
 		font-size: 95%;
 		border-radius: 6px;
 		margin: auto;
+	}
+
+	.access a {
+		font-size: 1em;
+	}
+
+	.tickets ul {
+		width: 100%;
+	}
+
+	.tickets img {
+		width: 30%;
+	}
+
+	.tickets h3 {
+		font-size: 1.2em;
+	}
+
+	.tickets .actions {
+		width: 25%;
 	}
 
 	.footer ul {
@@ -745,6 +847,24 @@ Description: Define screen-size breakpoints here.
 		font-size: 1.8em;
 		line-height: 1.2em;
 		padding-bottom: 1em;
+	}
+
+	.access .col-3 {
+		width: 90%;
+	}
+
+	.access p {
+		font-size: 1.8em;
+	}
+
+	.access a {
+		width: 40%;
+		border-radius: 5px;
+	}
+
+	.access img {
+		width: 120%;
+		margin: 0 auto;
 	}
 
 	.footer {
