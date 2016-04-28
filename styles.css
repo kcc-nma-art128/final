@@ -340,7 +340,6 @@ a.nav-toggle:hover {
 
 .faq h1 {
 	text-align: center;
-	margin-top: 2em;
 }
 
 .faq ul {
@@ -490,12 +489,13 @@ input[type="text"] {
 	font-weight: 300;
 	text-transform: uppercase;
 	text-align: center;
+	font-size: 1.8em;
 }
 
 .gallery h3 {
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 3em;
 }
 
 .gallery a {
@@ -715,7 +715,7 @@ Description: Define screen-size breakpoints here.
 	}
 
 	.gallery {
-		width: 85%;
+		width: 70%;
 	}
 
 	.gallery img {
@@ -815,11 +815,11 @@ Description: Define screen-size breakpoints here.
 
 	.gallery img {
 		margin: 0.5%;
-		width: 48%;
+		width: 40%;
 	}
 
 	.gallery {
-		width: 90%;
+		width: 80%;
 	}
 
 	.footer ul {
@@ -1051,8 +1051,12 @@ Description: Define screen-size breakpoints here.
 		padding: 0;
 	}
 
+	.myCarousel left carousel-control {
+		background: #fff;
+	}
+
 	.gallery {
-		width: 85%;
+		width: 70%;
 		margin-top: 10%;
 		padding: 0;
 	}
