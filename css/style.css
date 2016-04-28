@@ -493,6 +493,7 @@ section .row img {
 	width: 100%;
 }
 
+/*SECTION 01*/
 .history .section01 {
 	width: 100%;
 	float: left;
@@ -513,8 +514,6 @@ section .row img {
 	color: #000;
 	border-bottom: 2px solid #000;
 	}
-
-
 
 img {
 	width: 100%;
@@ -540,6 +539,41 @@ img {
 /*SECTION 05*/
 .history .section05 {
 	text-align: center;
+}
+
+
+/*MENU PAGE*/
+.menu body {
+		background: #fff;
+}
+.menu .hero-text {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+/*SECTION 01*/
+.menu .section01{
+	width: 100%;
+	float: left;
+	margin: 0;
+	position: relative;
+	background: #fff;
+
+}
+
+/*SECTION 02*/
+.menu .section02 {
+	background: #fff;
+}
+
+.menu .topper {
+	text-transform: uppercase;
+	color: #b82222;
+	border-bottom: 2px solid #000;
+}
+
+.m-items{
+	color: #000;
 }
 
 /* FOOTER */
