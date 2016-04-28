@@ -315,8 +315,9 @@ a.nav-toggle:hover {
 
 .about {
 	margin: 0 auto;
-	width: 60%;
+	width: 70%;
 	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .about p {
@@ -333,6 +334,7 @@ a.nav-toggle:hover {
 .faq {
 	margin: 0 auto;
 	width: 70%;
+	padding-top: 5%;
 	padding-bottom: 5%;
 }
 
@@ -378,10 +380,24 @@ a.nav-toggle:hover {
 	font-weight: 300;
 }
 
+.contactform {
+	float: left;
+}
+
+input[type="text"] {
+    border: 1px solid #000;
+    padding: .5em 1em;
+    border-radius: 5px}
+
+.faq .col-2 {
+	width: 40%;
+}
+
 .tickets {
 	margin: 0 auto;
-	width: 80%;
-	padding: 5%;
+	width: 70%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .tickets p {
@@ -403,6 +419,7 @@ a.nav-toggle:hover {
 .tickets ul {
 	width: 90%;
 	margin: 0 auto;
+	padding-bottom: 3%;
 }
 
 .tickets .info {
@@ -413,6 +430,7 @@ a.nav-toggle:hover {
 	float: right;
 	width: 20%;
 }
+
 
 .tickets .actions a {
 	display: block;
@@ -442,10 +460,26 @@ a.nav-toggle:hover {
 	font-weight: 300;
 }
 
+.tickets .button {
+	display: block;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+	margin: 0 auto;
+	width: 30%;
+}
+
 .gallery {
 	margin: 0 auto;
-	width: 60%;
-	padding: 5%;
+	width: 70%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .gallery img {
@@ -526,10 +560,10 @@ a.nav-toggle:hover {
 
 
 .access {
-		margin: 0 auto;
-		width: 80%;
-		padding: 5%;
-		clear: both;
+	margin: 0 auto;
+	width: 70%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .access p {
@@ -541,6 +575,7 @@ a.nav-toggle:hover {
 .access a {
 	display: block;
 	text-transform: uppercase;
+	font-weight: bold;
 	font-size: 1.5em;
 	border: 1.5px solid #000;
 	border-radius: 10px;
@@ -746,7 +781,8 @@ Description: Define screen-size breakpoints here.
 
 
 	.access a {
-		font-size: 1em;
+		font-size: 1.5em;
+		width: 40%;
 	}
 
 	.access h3 {
@@ -863,14 +899,15 @@ Description: Define screen-size breakpoints here.
 		}
 
 	.about {
-		width: 80%;
+		margin-top: 5%;
+		width: 85%;
 	}
 
 	.about p {
 		font-size: 1.8em;
 		line-height: 1.5em;
 		margin-bottom: 10%:
-		margin-top: 10%;
+
 	}
 
 	.faq {
@@ -893,37 +930,66 @@ Description: Define screen-size breakpoints here.
 		font-size: 80%;
 	}
 
+	.tickets {
+		width: 85%;
+		padding: 0;
+	}
+
 	.tickets p {
 		font-size: 1.8em;
+		margin-bottom: 5%;
+		margin-top: 10%;
+	}
+
+	.tickets ul {
+		width: 100%;
 	}
 
 	.tickets .info {
-		text-align: center;
-		margin: 0 auto;
-		width: 100%;
+		float: left;
+		margin: 5%;
+		margin-right: 0;
 	}
 
 	.tickets img {
 		width: 100%;
 	}
 
+
+
 	.tickets h3, h4 {
-		font-size: 2.5em;
+		font-size: 1.9em;
 		margin-top: 5%;
 	}
 
 	.tickets h5 {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 	.tickets .actions {
-		width: 50%;
+		width: 30%;
 		font-size: 1.8em;
 		text-align: center;
+		float: right;
+		margin-top: 5%;
+		margin-right: 5%;
+	}
+
+
+	.tickets .button {
+		display: block;
+		color: #000;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 1.8em;
+		border: 1px solid #000;
+		border-radius: 6px;
+		padding: 2%;
+		padding-left: 5%;
+		padding-right: 5%;
+		text-align: center;
 		margin: 0 auto;
-		float: none;
-		clear: both;
-		padding: 3%;
+		width: 40%;
 	}
 
 	.col-3 {
@@ -957,6 +1023,12 @@ Description: Define screen-size breakpoints here.
 		margin-top: 6%;
 	}
 
+	.access {
+		margin-top: 10%;
+		width: 85%;
+		padding: 0;
+	}
+
 	.access p {
 		font-size: 1.8em;
 		width: 100%;
@@ -970,11 +1042,19 @@ Description: Define screen-size breakpoints here.
 	.access a {
 		width: 40%;
 		border-radius: 5px;
+		font-size: 1.5em;
 	}
 
 	.access img {
-		width: 120%;
+		width: 100%;
 		margin: 0 auto;
+		padding: 0;
+	}
+
+	.gallery {
+		width: 85%;
+		margin-top: 10%;
+		padding: 0;
 	}
 
 	.gallery img {
@@ -993,6 +1073,7 @@ Description: Define screen-size breakpoints here.
 	.gallery a {
 		font-size: 1.5em;
 		border-radius: 6px;
+		padding: 3%;
 		width: 60%;
 	}
 
