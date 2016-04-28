@@ -684,7 +684,9 @@ border: 1px solid #333;
 
 /*>>>>>>>>>>>>>>>liquid>>>>>>>>>>*/
 
-
+.liquids{
+  margin-top:10%;
+}
 .col3b{
   position: relative;
   width: 30%;
@@ -1278,13 +1280,13 @@ transform: translate(-5%, -50%);
 /*--------------Book Bold----------------*/
 @font-face {
   font-family: 'ITCAvantGardeStd-Bold';
-  src: url('../fonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.eot') format('embedded-opentype');
+  src: url('../fonts/ITCAvantGardeStd-Bold/ITCAvantGardeStd-Bold.eot') format('embedded-opentype');
 }
 
 @font-face {
   font-family: 'ITCAvantGardeStd-Bold';
-  src:  url('../fonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.otf')  format('opentype'),
-	     url('../fonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.woff')format('woff'), url('../fonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.ttf')  format('truetype'), url('../fonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.svg#ITCAvantGardeStd-Bold') format('svg');
+  src:  url('../fonts/ITCAvantGardeStd-Bold/ITCAvantGardeStd-Bold.otf')  format('opentype'),
+	     url('../fonts/ITCAvantGardeStd-Bold/ITCAvantGardeStd-Bold.woff')format('woff'), url('../fonts/ITCAvantGardeStd-Bold/ITCAvantGardeStd-Bold.ttf')  format('truetype'), url('../fonts/ITCAvantGardeStd-Bold/ITCAvantGardeStd-Bold.svg#ITCAvantGardeStd-Bold') format('svg');
 }
 /*--------------Book obl----------- */
 @font-face {
@@ -1300,13 +1302,13 @@ transform: translate(-5%, -50%);
 /*--------------Bold condense---------------*/
 @font-face {
   font-family: 'ITCAvantGardeStd-BoldCn';
-  src: url('ITCAvantGardeStd-BoldCn.eot')format('embedded-opentype');
+  src: url('../fonts/ITCAvantGardeStd-BoldCn/ITCAvantGardeStd-BoldCn.eot')format('embedded-opentype');
 }
 
 @font-face {
   font-family: 'ITCAvantGardeStd-BoldCn';
-  src:  url('ITCAvantGardeStd-BoldCn.otf')  format('opentype'),
-	     url('ITCAvantGardeStd-BoldCn.woff')format('woff'), url('ITCAvantGardeStd-BoldCn.ttf')  format('truetype'), url('ITCAvantGardeStd-BoldCn.svg#ITCAvantGardeStd-BoldCn') format('svg');
+  src:  url('../fonts/ITCAvantGardeStd-BoldCn/ITCAvantGardeStd-BoldCn.otf')  format('opentype'),
+	     url('../fonts/ITCAvantGardeStd-BoldCn/ITCAvantGardeStd-BoldCn.woff')format('woff'), url('../fonts/ITCAvantGardeStd-BoldCnITCAvantGardeStd-BoldCn.ttf')  format('truetype'), url('../fonts/ITCAvantGardeStd-BoldCn/ITCAvantGardeStd-BoldCn.svg#ITCAvantGardeStd-BoldCn') format('svg');
 }
 /*--------------Demi---------------*/
 @font-face {
