@@ -131,7 +131,7 @@ body {
 }
 
 /* LAYOUT/GRID */
-.section01 {
+.home .section01 {
 	width: 100%;
 	float: left;
 	margin: 0;
@@ -492,18 +492,28 @@ section .row img {
 	margin: 0 0 30px;
 	width: 100%;
 }
-h1 {
+
+.history .section01 {
+	width: 100%;
+	float: left;
+	margin: 0;
+	position: relative;
+	background: #211A17;
+
+}
+
+.hero-text {
 	position: absolute;
 	padding: 0 1.5em 0 1.5em;
+	top: 50%;
+	left: 50%;
+	transform: translate(50%, 50%);
 	font-family: 'libre_baskervilleitalic', serif;
 	color: #000;
 	border-bottom: 2px solid #000;
 	}
 
-.history .section01 {
-	background: #211A17;
 
-}
 
 img {
 	width: 100%;
