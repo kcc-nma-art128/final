@@ -1,3 +1,5 @@
+
+// ANIMATED NAV///////////////////////////////
 $(function() {
   var $navToggle = $('.nav-toggle');
   var $mainNavUl = $('.mainnav ul');
@@ -17,20 +19,10 @@ $(function() {
   });
 
 
-  //////////////////////////////////////////////slide
 
 
 
-
-
-
-
-
-
-
-
-
-  // ACTIVE STATE
+  // ACTIVE STATE//////////////////////////////////////////////////
   var $sections = $('.section01,.section02,.section03,.section04,.section05');
   var $mainNav = $(".mainnav");
   var navOffset = 50;
@@ -52,7 +44,6 @@ $(function() {
 
   });
 
-
   // SMOOTH SCROLL
   $(".mainnav a").click(function(e) {
     e.preventDefault();
@@ -65,7 +56,11 @@ $(function() {
     }, 750);
   });
 
-// sub nav
+
+
+
+
+// sub nav//////////////////////////////////////////////////
   $('.tabgroup > div').hide();
   $('.tabgroup > div:first-of-type').show();
   $('.tabs a').click(function(e){
@@ -81,11 +76,14 @@ $(function() {
 
   })
 
-
-
 });
 
 
+
+
+
+
+  /////////////////////SLIDESHOW/////////////////////////
 
   var slideIndex = 1;
   showSlides(slideIndex);

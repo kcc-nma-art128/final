@@ -212,7 +212,7 @@ color:#fff;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.dot:active, .dot:hover {
   background-color: #fff;
 }
 
@@ -253,7 +253,7 @@ background: rgba(0, 0, 0, 0.7);
 
 .mainnav ul {
   margin: auto;
-  margin-top: -8%;
+  margin-top: -4.5em;
   padding: 0 5%;
   list-style: none;
 }
@@ -402,7 +402,7 @@ transform: translate(-25%, -50%);
   width: 100%;
   position: absolute;
   z-index: 5;
-  top:60%;
+  top:55%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -433,7 +433,7 @@ border-color: transparent;
 }
 /*----------01B--------------*/
 .welcome{
-width: 45%;
+width: 50%;
  margin: auto;
 }
 
@@ -528,8 +528,8 @@ width: 45%;
 .col02 i{
   font-size: 0.05em;
   position: relative;
-top: 24px;
-right: 16px;
+  top: 24px;
+  right: 16px;
 }
 
 
@@ -576,10 +576,12 @@ font-size: 1em;
 margin-right: 2em;
 display: inline-block;
 }
-.subnav a:active,.subnav a:hover{
+
+.subnav a.active,.subnav a:hover{
   background: transparent;
   color: #b0b601;
 }
+
 .subnav a{
   font-family:'ITCAvantGardeStd-Md',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   color: #b0b601;
@@ -644,13 +646,13 @@ display: inline-block;
 
 }
 .quote{
-  padding: 5% 5% ;
+  padding: 0 0 5 0 ;
 }
 
 
 /*>>>>>>>>>>dinner>>>>>>>>>>>>>*/
 .dinner,.dessert{
-margin: 10% 0 10% 0;
+margin: 10% 0 5% 0;
 padding:0 0 5% 0;
 border: 1px solid #333;
 }
@@ -686,6 +688,7 @@ border: 1px solid #333;
 
 .liquids{
   margin-top:10%;
+  margin-bottom: 5%;
 }
 .col3b{
   position: relative;
@@ -708,20 +711,6 @@ border: 1px solid #333;
 .col3c h3{
   margin: -5% 20% 5% 20%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -905,18 +894,6 @@ color: #fff;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*<!--FOOTER------------------------->*/
 
 /*>>>>>>>>>Newsletter<<<<<<<<<<<<<<<<*/
@@ -1022,6 +999,27 @@ padding-bottom: 0.5em;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*==============================MEDIAQUERIES=============================================== */
 
 /* Tablet =====================================================*/
@@ -1041,7 +1039,7 @@ header {
   font-size: 85%;
 }
 .mainnav ul {
-margin-top: -7%;
+margin-top: -5em;
 }
 
 .col0a li:first-of-type,{
@@ -1069,8 +1067,11 @@ width: 50%;
 /*-------------footer-------------------*/
 .newsletter p, .newsletter .email, .newsletter a{
   display: block;
+  padding-bottom: 0.25em;
   text-align: center;
   position: relative;
+  margin-bottom: 0.5em;
+  padding-right: 0;
 }
 .newsletter a {
   margin: 2% 35%;
@@ -1117,8 +1118,8 @@ body {
 }
 
 .logo {
-margin-top: 3em;
-transform: translate(-5%, -50%);
+  margin-top: 1em;
+  transform: translate(-0%, -0%);
 }
 /*.logo{
  float: left;
@@ -1130,7 +1131,7 @@ transform: translate(-5%, -50%);
  .mainnav ul {
   display: none;
   padding: 20% 0;
-  margin-top: -21%;
+  margin-top: -18%;
   margin-bottom: -19%;
   }
 
@@ -1163,7 +1164,7 @@ transform: translate(-5%, -50%);
     }
 
   .welcome {
-    width: 60%;
+    width: 50%;
     }
 
 
@@ -1171,18 +1172,20 @@ transform: translate(-5%, -50%);
 .about-title h1{
   font-size: 6em;
 }
-    .col02{
-      position: relative;;
-      width: 60%;
-      padding: 0 25% ;
 
+.col02{
+  position: relative;;
+  width: 55%;
+  padding: 0 25% ;
+}
 
-    }
-    .col02:last-of-type{
-      float: none;
+.col02:last-of-type{
+  float: none;
+}
 
-    }
-
+.col02 i {
+  top: 20px;
+}
 
 
 /*-------------section03-------------------*/
@@ -1195,6 +1198,7 @@ transform: translate(-5%, -50%);
   float: none;
   margin:auto;
 }
+
 .col3b{
   margin-bottom: 10%;
 }
@@ -1213,9 +1217,12 @@ transform: translate(-5%, -50%);
   }
 .col-img{
   width:60%;
+  margin-left: 20%;
 }
 .col-05{
-  width: 80%;
+  width: 60%;
+  margin: auto;
+  float: none;
 }
 
 /*-------------footer-------------------*/
@@ -1227,10 +1234,10 @@ transform: translate(-5%, -50%);
   margin: auto;
 }
 .newsletter a {
-  margin: 2% 30%;
+  margin: 4% 30% 0;
 }
 .newsletter p{
-  margin-bottom: 0.25em;
+  margin-bottom: 0.75em;
   padding: 0;
 }
 .newsletter i{
