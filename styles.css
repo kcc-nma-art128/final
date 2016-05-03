@@ -381,15 +381,18 @@ a.nav-toggle:hover {
 
 .contactform {
 	float: left;
+	margin: 1%;
 }
 
 input[type="text"] {
     border: 1px solid #000;
     padding: .5em 1em;
+		margin: 1%;
     border-radius: 5px}
 
 .faq .col-2 {
 	width: 40%;
+	float:left;
 }
 
 .tickets {
@@ -512,6 +515,23 @@ input[type="text"] {
 	margin: 0 auto;
 	width: 30%;
 }
+
+
+
+
+.myCarousel {
+	width: 50%;
+}
+
+.carousel .item img {
+	margin: 0 auto;
+}
+
+
+.slick-prev:before, .slick-next:before {
+	color: #000;
+}
+
 
 
 .col-3 {
@@ -692,6 +712,41 @@ input[type="text"] {
 	padding-left: 20%;
 	padding-right: 20%;
 }
+
+
+
+
+
+
+.carousel-control 			 { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+@media (max-width: 767px) {
+	.carousel-inner .active.left { left: -100%; }
+	.carousel-inner .next        { left:  100%; }
+	.carousel-inner .prev		 { left: -100%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+	.carousel-inner .active.left { left: -50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		 { left: -50%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+	.carousel-inner .active.left { left: -25%; }
+	.carousel-inner .next        { left:  25%; }
+	.carousel-inner .prev		 { left: -25%; }
+}
+
+
+
+
+
+
 
 
 
