@@ -165,7 +165,7 @@ body{
   width: auto;
   margin: 0 50px ;
   padding: 16px ;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.5);
   font-size: 20px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
@@ -179,7 +179,7 @@ body{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-color:#fff;
+color:rgba(255,255,255,1);
 }
 
 /* Caption text */
@@ -212,7 +212,7 @@ color:#fff;
   transition: background-color 0.6s ease;
 }
 
-.dot:active, .dot:hover {
+.dot.active, .dot:hover {
   background-color: #fff;
 }
 
@@ -600,7 +600,7 @@ display: inline-block;
   text-transform: uppercase;
   text-align: center;
   background-color: #f6f5f0;
-  margin:-3% 35% 5% 35%;
+  margin:-3% 0 5% 0;
   padding: 0.25em 0 0 0;
 }
 
@@ -646,7 +646,7 @@ display: inline-block;
 
 }
 .quote{
-  padding: 0 0 5 0 ;
+  padding: 0 0 5px 0 ;
 }
 
 
@@ -706,10 +706,10 @@ border: 1px solid #333;
 }
 
 .col3b h3:first-of-type{
-  margin: -5% 0 5% 0;
+  margin: -8% 0 5% 0;
 }
 .col3c h3{
-  margin: -5% 20% 5% 20%;
+  margin: -8% 20% 5% 20%;
 }
 
 
@@ -857,7 +857,7 @@ color: #fff;
   margin-left: 15%;
   margin-top:10%;
   padding-top: 10%;
-  padding-bottom: 5%;\
+  padding-bottom: 5%;
 
 }
 
@@ -884,7 +884,9 @@ color: #fff;
   color:#ffb700;
 
   }
-
+ .section05 .col-05 a:hover{
+   text-decoration: none;
+ }
 
 
 
@@ -1042,7 +1044,7 @@ header {
 margin-top: -5em;
 }
 
-.col0a li:first-of-type,{
+.col0a li:first-of-type{
 padding-right: 0;
 }
 .col0b li:last-of-type{
