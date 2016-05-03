@@ -528,7 +528,7 @@ width: 50%;
 .col02 i{
   font-size: 0.05em;
   position: relative;
-  top: 24px;
+  top: 26px;
   right: 16px;
 }
 
@@ -600,7 +600,7 @@ display: inline-block;
   text-transform: uppercase;
   text-align: center;
   background-color: #f6f5f0;
-  margin:-3% 0 5% 0;
+  margin:-3% 35% 5% 35%;
   padding: 0.25em 0 0 0;
 }
 
@@ -845,13 +845,13 @@ color: #fff;
 
 
 .col-05 {
-  width: 40%;
+  width: 41%;
   float: right;
   margin: 5% 8% 5% 7%;
 }
 
  .col-img {
-  width: 30%;
+  width: 29%;
   float: left;
   border-top: 2px solid #b1a69b; /*ask for the out of container border*/
   margin-left: 15%;
