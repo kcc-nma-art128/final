@@ -8,3 +8,8 @@ $("li").mouseover(function(){
    $(this).find(".accent").removeClass("animate");
    $(this).find(".item").css("color","#000");
 });
+
+// CALENDAR
+$(function() {
+  $( "#datepicker" ).datepicker({ firstDay: 1});
+});
