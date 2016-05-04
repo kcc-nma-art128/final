@@ -92,6 +92,8 @@ a {
 a:visited, a:hover, a:focus {
 	color: #fff;
 	text-decoration: none;
+	border: 2px solid #b82222;
+	font-weight: bold;
 }
 
 
@@ -216,11 +218,13 @@ h2 {
 
 .main-nav a:hover {
 	color: #b82222;
+	border: none;
 }
 
 .main-nav a.active {
 	color: #b82222;
 	border-bottom: 2px solid #fff;
+	font-weight: bold;
 }
 
 /* SECTION 01 */
