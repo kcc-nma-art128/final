@@ -256,6 +256,9 @@ h4 {
 	font-family: 'libre_baskervilleitalic', serif;
 }
 
+.intro {
+	padding: 3em;
+}
 /* SECTION 03 */
 .home .section03 {
 	text-align: center;
