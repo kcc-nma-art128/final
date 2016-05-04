@@ -219,7 +219,7 @@ h2 {
 }
 
 .main-nav a.active {
-	color: #fff;
+	color: #b82222;
 	border-bottom: 2px solid #fff;
 }
 
@@ -257,8 +257,10 @@ h4 {
 }
 
 .intro {
-	padding: 3em;
+	padding-left: 8em;
+	padding-right: 8em;
 }
+
 /* SECTION 03 */
 .home .section03 {
 	text-align: center;
@@ -268,10 +270,6 @@ h4 {
 /*DATE PICKER*/
 * {
   box-sizing: border-box;
-}
-
-.col-md-4 .picker {
-	padding: 5em;
 }
 
 .visuallyhidden {
@@ -288,14 +286,13 @@ h4 {
 select {
   height: 37px;
   border: 1px solid transparent;
-  font: 700 14px/normal Arial;
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
   background-color: #211a17;
   background-repeat: no-repeat;
-  padding: 8px 30px 8px 12px;
+  padding: 2px 30px 3px 50px;
   border: 2px solid #fff;
 }
 
