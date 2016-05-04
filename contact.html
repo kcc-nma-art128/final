@@ -62,7 +62,34 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
+            <div class="block">
+              <div class="done">
+              <b>Thank you !</b> We have received your message.
+              </div>
+              	<div class="form">
+              	<form method="post" action="processinput.php">
+              	<div class="element">
+              		<label>Name</label>
+              		<input type="text" name="name" class="text" />
+              	</div>
+              	<div class="element">
+              		<label>Email</label>
+              		<input type="text" name="email" class="text" />
+              	</div>
 
+              	</div>
+              	<div class="element">
+              		<label>Message</label>
+              		<textarea name="message" class="text textarea" /></textarea>
+              	</div>
+              	<div class="element">
+
+              		<input type="submit" id="submit"/>
+              		<div class="loading"></div>
+              	</div>
+              	</form>
+              	</div>
+              </div>
           </div>
         </div>
       </div>
