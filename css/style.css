@@ -415,7 +415,10 @@ img {
 }
 
 /*CONTACT PAGE*/
-
+.contact .hero-text {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
 
 /* FOOTER */
 .footer {
