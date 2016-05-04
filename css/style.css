@@ -423,9 +423,6 @@ img {
 /*RESERVE BOXES*/
 select {
   /* styling */
-  background-color: white;
-  border: thin solid blue;
-  border-radius: 4px;
   display: inline-block;
   font: inherit;
   line-height: 1.5em;
@@ -442,10 +439,6 @@ select {
 
 /* arrows */
 select.classic {
-  background-image:
-    linear-gradient(45deg, transparent 50%, blue 50%),
-    linear-gradient(135deg, blue 50%, transparent 50%),
-    linear-gradient(to right, skyblue, skyblue);
   background-position:
     calc(100% - 20px) calc(1em + 2px),
     calc(100% - 15px) calc(1em + 2px),
