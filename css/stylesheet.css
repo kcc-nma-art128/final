@@ -72,7 +72,6 @@ h6 {
 	 line-height: 1.4em;
  }
 
-
 p {
 	font-size: .8em;
   margin-bottom: 1.25em;
@@ -82,7 +81,6 @@ p {
 a { color: black; text-decoration: none; outline: 0; }
 a:hover, a:focus { color: #39c; }
 p a, p a:visited { line-height: inherit; }
-/* LISTS */
 
 /* IMAGES */
 .scale-with-grid {
@@ -105,7 +103,7 @@ p a, p a:visited { line-height: inherit; }
 
 
 
-/* SITE-SPECIFIC CSS (Site-Specific Design)*/
+/* SITE-SPECIFIC CSS*/
 
 body {
 	background: #fff;
@@ -113,26 +111,27 @@ body {
 
 .container {
   position: relative;
-  width: 56em;
+  width: 100%;
+	max-width: 56em;
   padding: 0 .625em;
   margin: 0 auto;
 }
 
 .logo {
-    width: 100px;
-		float: left;
-		padding-top: 1em;
-		padding-bottom: 1em;
-  }
+  width: 100px;
+	float: left;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
 
 .mainnav {
-		position: fixed;
-		z-index: 999;
-		top: 0;
-		left: 0;
-		width: 100%;
-		color: #6d4838;
-	}
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: #6d4838;
+}
 
 .mainnav.about-nav {
 	background: #5bb9ee;
@@ -155,11 +154,48 @@ body {
 }
 
 
+
+.home-nav .home-nav-item {
+	color: white;
+	background-color: #76d3fe;
+	border-radius: 3px;
+	padding:.6em;
+}
+
+.about-nav .about-nav-item {
+	background-color: #76d3fe;
+	border-radius: 3px;
+	padding:.6em;
+}
+
+.activity-nav .activity-nav-item {
+	background-color: #76d3fe;
+	border-radius: 3px;
+	padding:.6em;
+}
+
+.location-nav .location-nav-item {
+	background-color: #76d3fe;
+	border-radius: 3px;
+	padding:.6em;
+}
+
+.contact-nav .contact-nav-item {
+	background-color: #76d3fe;
+	border-radius: 3px;
+	padding:.6em;
+}
+
+.mainnav a {
+	color: inherit;
+}
+
 .mainnav h1 {
 	float: left;
 	font-size: 1.2em;
 	margin: 1.5em 0 0 1em;
 	line-height: 30px;
+	color:inherit;
 }
 
 .mainnav ul {
@@ -171,13 +207,13 @@ body {
 .mainnav ul li{
 	display: inline-block;
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-
 }
 
 .mainnav ul li a{
 color: inherit;
 padding: .8em;
 }
+
 
 .home {
 	background-image: url("../imgs/cuctus.jpg");
@@ -208,7 +244,6 @@ padding: .8em;
 	color: #fff;
 	font-style: italic;
 	font-weight: lighter;
-
 }
 
 
@@ -258,22 +293,40 @@ padding: .8em;
 
 .activity .col-1{
 	float: left;
-	width: 8%;
+	width: 18%;
+	margin-top: .4em;
 }
 
 .activity .col-2{
 	float: left;
-	width: 58%;
-	margin-left: 7%;
+	width: 56%;
+	margin-left: 3%;
 }
 
 .activity .col-3{
 	float: left;
-	width: 27%;
+	width: 23%;
 	background-color: #fff;
 }
 
-.activity .keiki-image {
+.slick-prev {
+	top: -43px;
+  left: 27px;
+	color: white;
+	background: none:
+}
+
+.slick-prev:before {
+	content: "";
+	background-image: url('../imgs/company-logo.png');
+}
+
+.slick-next {
+  right: 27px;
+	top: 398px;
+}
+
+.activity-slider .keiki-image {
 	width: 100%;
 	margin-bottom: 2em;
 }
@@ -287,7 +340,7 @@ padding: .8em;
 }
 
 .activity ul{
-	margin: 2.6em 0 3.1em 1em;
+	margin: 2.6em 0 1em 1em;
 	color: #6d4838;
 	list-style: none;
 }
@@ -406,7 +459,7 @@ padding: .8em;
 }
 
 .footer {
-  height: 120px;
+  height: 450px;
 	background: #fff;
 }
 
@@ -471,7 +524,7 @@ padding: .8em;
 
 .footer ul li{
 	float: left;
-	margin: -1.5em 1em 0 0;
+	margin: -1.5em .5em -1em 0;
 }
 
 .footer .subscribe {
@@ -481,6 +534,46 @@ padding: .8em;
 	border-radius: 4px;
 }
 
+@media only screen and (min-width: 48em) and (max-width: 62em) {}
+@media only screen and (max-width: 47.9999em){
 
-/* @FONT-FACE (Webfonts)
-===================================== */
+	.about p {
+		text-align: left;
+	}
+
+
+	.mainnav .container{
+		display: block;
+	}
+	.activity .col{
+		float: none;
+		width: 100%;
+	}
+
+	.location .col{
+		float: none;
+		width: 100%;
+	}
+
+	.contact .col{
+		float: none;
+		width: 100%;
+	}
+
+	.footer .col{
+		float: none;
+		width: 100%;
+	}
+
+	.footer .searchbar {
+		margin: 3em 4.5em 2em;
+	}
+
+	.footer .social-media {
+		margin-top: 1em;
+	}
+
+	.footer .subscribe {
+		margin-bottom: 4em;
+	}
+}
