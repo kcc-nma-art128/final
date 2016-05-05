@@ -92,7 +92,6 @@ a {
 a:visited, a:hover, a:focus {
 	color: #fff;
 	text-decoration: none;
-	border: 2px solid #b82222;
 	font-weight: bold;
 }
 
@@ -248,6 +247,13 @@ h2 {
 	background: #b82222;
 	padding: 7px 20px;
 	display: inline-block;
+}
+
+.menu-button a:hover {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 8px 25px;
 }
 
 /* SECTION 02 */
@@ -406,19 +412,68 @@ img {
 
 .menu .topper {
 	text-transform: uppercase;
+	text-align: left;
 	color: #b82222;
 	border-bottom: 2px solid #000;
 }
 
 .m-items{
+	text-align: left;
 	color: #000;
+}
+
+.smooth {
+	object-fit: scale-down;
+}
+
+.ing {
+	font-style: italic;
+	font-size: 15px;
+	margin-top: -2em;
 }
 
 /*GALLERY PAGE*/
 .gallery .hero-text {
 	color: #fff;
 	border-bottom: 2px solid #fff;
+	top: 33%;
 }
+
+/*SUB NAV*/
+.wrapper {
+  margin: 30px auto;
+  width: 80%;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+.tabs li {
+  float: left;
+  width: 22%;
+	list-style: none;
+}
+.tabs a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 20px 0;
+}
+.tabs a:hover,
+.tabs a.active {
+  border-bottom: 2px solid #fff;
+}
+.tabgroup div {
+  padding: 30px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /*CONTACT PAGE*/
 .contact .hero-text {
@@ -551,7 +606,7 @@ img {
   font-size: 12px;
 }
 .ui-state-default:hover {
-  background: #4da036;
+  background: #b82222;
   color: #fff;
   border-radius: 20px;
 }
