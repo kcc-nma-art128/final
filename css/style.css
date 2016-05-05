@@ -432,7 +432,6 @@ img {
 	padding:5px;
 	margin:2px;
 	font-family:arial;
-	font-size:12px;
 }
 .element label {
 	float:left;
@@ -455,7 +454,7 @@ img {
 }
 .element #submit {
 	float:right;
-	margin-right:10px;
+	margin-right: 49px;
 }
 .loading {
 	float:right;
@@ -479,9 +478,7 @@ img {
   width: 280px;
   margin: 0 2em 3em 8em;
   background: #fff;
-  border-radius: 4px;
   overflow: hidden;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 .ui-datepicker-header {
   height: 50px;
