@@ -414,6 +414,12 @@ img {
 	color: #000;
 }
 
+/*GALLERY PAGE*/
+.gallery .hero-text {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+
 /*CONTACT PAGE*/
 .contact .hero-text {
 	color: #fff;
