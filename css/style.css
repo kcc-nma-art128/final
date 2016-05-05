@@ -439,6 +439,11 @@ img {
 	top: 33%;
 }
 
+/*CAROSEL*/
+.carousel-control {
+	width: 0;
+}
+
 /*SUB NAV*/
 .wrapper {
   margin: 30px auto;
