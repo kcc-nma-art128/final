@@ -310,20 +310,32 @@ padding: .8em;
 }
 
 .slick-prev {
-	top: -43px;
-  left: 27px;
-	color: white;
-	background: none:
+	top: -46px;
+  left: 51px;
+	background-image: url('../imgs/top-allow.png');
+	background-repeat: no-repeat;
+	width: 57px;
+	height: 35px;
 }
 
 .slick-prev:before {
 	content: "";
-	background-image: url('../imgs/company-logo.png');
+	background-image: url('../imgs/top-allow.png');
 }
 
+
 .slick-next {
-  right: 27px;
+  right: 53px;
 	top: 398px;
+	background-image: url('../imgs/bottom-allow.png');
+	background-repeat: no-repeat;
+	width: 57px;
+	height: 35px;
+}
+
+.slick-next:before {
+	content: "";
+	background-image: url('../imgs/bottom-allow.png');
 }
 
 .activity-slider .keiki-image {
@@ -340,7 +352,7 @@ padding: .8em;
 }
 
 .activity ul{
-	margin: 2.6em 0 1em 1em;
+	margin: 2em 0 1.6em 1em;
 	color: #6d4838;
 	list-style: none;
 }
