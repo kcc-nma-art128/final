@@ -1,0 +1,1171 @@
+/* CSS TABLE OF CONTENTS
+=====================================
+  #BASE CSS
+  #SITE-SPECIFIC CSS
+===================================== */
+
+
+/*
+=====================================
+========== BEGIN BASE CSS ===========
+=====================================
+*/
+
+/* BASE CSS (Initital Base Setup)
+Description: "Base" css is an initial set of core
+styles that can be used (and reused) as a start
+for most sites. It should be placed at the top so
+it can be over-written by site-specific styling
+below.
+=====================================
+  #RESET
+  #HTML5
+  #BASE TYPOGRAPHY
+  	#BODY
+  	#HEADINGS
+  	#PARAGRAPHS
+  	#LINKS
+  	#LISTS
+  #IMAGES
+  #CLEARFIX
+===================================== */
+
+
+/* #RESET
+================================================== */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* #HTML5
+================================================== */
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+
+/* #BASE TYPOGRAPHY
+================================================== */
+
+/* #BODY */
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 100%; /* 1em = 16px */
+	line-height: 1.5em; /* 16px x 1.5em = 24px */
+	color: #333;
+}
+
+/* #HEADINGS
+Based on a Traditional Typographic Scale:
+48, 36, 24, 21, 18, 16
+================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: .5em;
+}
+
+h1 {
+	font-size: 3em; /* 48px / 16px = 3em */
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 2.25em; /* 36px / 16px = 2.25em */
+	line-height: 1.1em;
+}
+
+h3 {
+	font-size: 1.5em; /* 24px / 16px = 1.5em */
+	line-height: 1.2em;
+}
+
+h4 {
+	font-size: 1.3125em; /* 21px / 16px = 1.3125em */
+	line-height: 1.3em;
+}
+
+h5 {
+	font-size: 1.125em; /* 18px / 16px = 1.125em */
+	line-height: 1.4em;
+}
+
+h6 {
+	font-size: 1em; /* 16px / 16px = 1em */
+	line-height: 1.5em;
+}
+
+/* #Paragraphs
+================================================== */
+p {
+	margin-bottom: .5em;
+}
+
+
+/* #Links
+================================================== */
+a { color: #39c; text-decoration: none; }
+a:visited, a:hover, a:focus { color: #069; }
+
+
+/* #Lists
+================================================== */
+ul, ol {
+	margin-bottom: .5em;
+}
+
+ul li ul, ul li ol, ol li ul, ol li ol {
+	margin: 0;
+}
+
+li {
+	margin-left: 1.875em;
+}
+
+
+/* #Images
+================================================== */
+img.scale-with-grid {
+	max-width: 100%;
+	height: auto;
+}
+
+a img {
+	border: none;
+}
+
+
+/* #CLEARFIX
+================================================== */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
+=====================================
+=========== END BASE CSS ============
+=====================================
+*/
+
+
+/*
+=====================================
+===== BEGIN SITE- SPECIFIC CSS ======
+=====================================
+*/
+
+/* SITE-SPECIFIC CSS (Site-Specific Design)
+Description: "Site-specific" css is where all
+site-specific visual design styles. Site-specific
+css should be placed on the bottom to
+override any base styling above it.
+=====================================
+	#SITE-SPECIFIC BASE STYLING
+	#SITE-SPECIFIC TYPOGRAPHY
+	#LAYOUT/GRID
+	#SECTIONS
+	#MEDIA QUERIES
+	#@FONT-FACE
+===================================== */
+
+/* SITE-SPECIFIC BASE STYLING
+Description: Adjust general base settings above with
+site-specific styles here.
+(e.g. body background color)
+===================================== */
+
+body {
+	background: #fff;
+}
+
+
+/* SITE-SPECIFIC TYPOGRAPHY
+Description: Adjust the base typography settings above
+with site-specific styles here.
+(e.g. headings, paragraphs, colors, etc.)
+===================================== */
+
+
+
+/* LAYOUT/GRID
+Description: Place grid and visual layout styling here.
+(e.g. containers, rows, columns)
+===================================== */
+.container {
+	/* Fixed width: 960px */
+    width: 60em; /* 960px / 16px (base) = 60em - (5em padding x 2) = 50em */
+	margin: 0 auto;
+}
+
+/* SECTIONS
+Description: Style major site sections here.
+(e.g. header, navs/navigation, site-specific content sections,
+asides, sidebars, footer, sub page-specific styling, etc.)
+===================================== */
+
+.nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  clear: both;
+	z-index: 1;
+}
+
+.nav ul li a {
+  text-transform: uppercase;
+	font-weight: 300;
+	color: #000;
+  display: block;
+	font-size: 1.5em;
+	margin: 0.3em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.nav a.active {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.nav ul li {
+	float:left;
+}
+
+.nav ul {
+	float: right;
+	margin-top: 3.5em;
+  list-style-type: none;
+}
+
+.nav img {
+  max-width: 100%;
+  float: left;
+  clear: both;
+  margin: 0.5em;
+}
+
+a.nav-toggle {
+  display: none;
+  box-sizing: border-box;
+  width: 30px;
+  height: 20px;
+  margin: 20px auto;
+  position: relative;
+}
+
+a.nav-toggle:hover {
+  background: transparent;
+}
+
+.nav-toggle:before, .nav-toggle:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .5s;
+}
+
+.nav-toggle:before {
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+}
+
+.nav-toggle:after {
+  top: 12px;
+  height: 4px;
+  background: #000;
+}
+
+.nav-toggle.active:before {
+  border: 0;
+  top: 12px;
+  height: 4px;
+  background: #000;
+  transform: rotate(45deg);
+}
+
+.nav-toggle.active:after {
+  transform: rotate(-45deg);
+}
+
+
+.header img {
+  width: 100%;
+  clear: both;
+	padding-top: 6em;
+}
+
+.headline h1 {
+  font-size: 4em;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 1em;
+}
+
+.headline {
+	margin: 3em;
+	padding-top: 1em;
+	text-align: center;
+}
+
+.about {
+	margin: 0 auto;
+	width: 70%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.about p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	font-weight: 300;
+}
+
+.about img {
+	width: 80%;
+	margin: 10%;
+}
+
+.faq {
+	margin: 0 auto;
+	width: 70%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.faq h1 {
+	text-align: center;
+}
+
+.faq ul {
+	list-style-type: none;
+}
+
+.faq h5 {
+	padding: 0.5em;
+	font-size: 1.5em;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin: 1%;
+	font-weight: 300;
+}
+
+.faq i {
+	float: right;
+}
+
+.faq img {
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 8%;
+	padding-bottom: 3%;
+}
+
+.faq p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	font-weight: 300;
+	display: none;
+	padding: 5%;
+}
+
+.faq h3 {
+	font-size: 1.5em;
+	line-height: 1.6em;
+	font-weight: 300;
+}
+
+.contactform {
+	float: left;
+	margin: 1%;
+}
+
+
+input[type="text"] {
+    border: 1px solid #000;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-style: italic;
+    padding: .5em 1em;
+		margin: 3%;
+		display:block;
+	}
+
+.contactform textarea {
+	border: 1px solid #000;
+	font-style: italic;
+	padding: .5em 1em;
+	margin: 3%;
+	display:block;
+}
+
+.contactform button {
+		    border: 1px solid #000;
+				font-family: 'Roboto Condensed', sans-serif;
+				background: #fff;
+				text-transform: uppercase;
+				font-size: 1.2em;
+				font-weight: bold;
+		    padding: .5em 1.5em;
+				margin: 3%;
+		    border-radius: 5px;
+				display:block;
+		}
+
+.faq .col-2 {
+	width: 40%;
+	float:left;
+}
+
+.tickets {
+	margin: 0 auto;
+	width: 70%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.tickets p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	font-weight: 300;
+}
+
+.tickets img {
+	float: left;
+	margin-right: 5%;
+}
+
+.tickets ul li {
+	list-style-type: none;
+	margin: 5%;
+}
+
+.tickets ul {
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 3%;
+}
+
+.tickets .info {
+	float: left;
+}
+
+.tickets .actions {
+	float: right;
+	width: 20%;
+}
+
+
+.tickets .actions a {
+	display: block;
+	color: #000;
+	text-transform: uppercase;
+	border: 1px solid #000;
+	border-radius: 8px;
+	padding: 4%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	margin: 2%;
+}
+
+.tickets h3 {
+	text-transform: uppercase;
+	line-height: .8em;
+}
+
+.tickets h4 {
+	line-height: .8em;
+}
+
+.tickets h5 {
+	line-height: .8em;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.tickets .button {
+	display: block;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+	margin: 0 auto;
+	width: 30%;
+}
+
+.gallery {
+	margin: 0 auto;
+	width: 70%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.gallery img {
+	margin: 1%;
+}
+
+.gallery h5 {
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.gallery h3 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3em;
+}
+
+.gallery a {
+	display: block;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+	margin: 0 auto;
+	width: 30%;
+}
+
+
+.slick-prev:before, .slick-next:before {
+	color: #000;
+}
+
+
+.col-3 {
+	float: left;
+	margin: 1em;
+	width: 30%;
+	margin-bottom: 10em;
+}
+
+.col-3 img {
+	max-width: 100%;
+}
+
+.col-3 h3 {
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: 400;
+	text-align: center;
+	margin: 0.5em;
+}
+
+.col-3 p {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.2em;
+	text-align: left;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.col-3 a {
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	border: 1.5px solid #000;
+	border-radius: 10px;
+	width: 70%;
+	text-align: center;
+	padding: 0.3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.access {
+	margin: 0 auto;
+	width: 70%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.access p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	font-weight: 300;
+}
+
+.access a {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.5em;
+	border: 1.5px solid #000;
+	border-radius: 10px;
+	width: 25%;
+	text-align: center;
+	padding: 0.3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.access img {
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
+	margin: 5%;
+}
+
+.access .col-3 {
+	display: inline-block;
+	list-style-type: none;
+	width: 28%;
+	text-align: left;
+	margin: 2%;
+}
+
+.access h3 {
+	text-transform: uppercase;
+	font-size: 2em;
+	text-align: left;
+}
+
+
+
+
+.footer {
+	background: #292728;
+}
+
+.footer img {
+	width: 10%;
+	float: left;
+	margin: 4%;
+}
+
+.footer ul {
+	width: 80%;
+	float: left;
+}
+
+
+.footer ul li {
+	color: #fff;
+	font-weight: 300;
+	font-size: 1em;
+	list-style-type: none;
+	display: block;
+	float: left;
+	width: 14%;
+	padding: 0.5em;
+	margin-top: 2em;
+	margin-left: 3%;
+	text-align: left;
+}
+
+.footer h6 {
+	text-transform: uppercase;
+	font-weight: 400;
+	border-bottom: 1px solid #fff;
+	padding-bottom: .1em;
+	text-align: left;
+}
+
+
+.footer .social {
+	width: 20%;
+}
+
+.footer a {
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 8px;
+	padding: 0.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.social a {
+	float: left;
+	border: none;
+	border-radius: none;
+	padding: 0;
+	margin-left: 6%;
+	color: #fff;
+}
+
+.footer .email {
+	float: right;
+	width: 40%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+}
+
+.email .field a {
+	text-transform: capitalize;
+	font-style: italic;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+
+
+/* MEDIA QUERIES
+Description: Define screen-size breakpoints here.
+(e.g. Desktop, Tablet, Mobile)
+===================================== */
+
+@media all and (min-width: 62em) and (max-width: 77.5em) {
+
+	.tickets ul {
+		width: 100%;
+	}
+
+	.tickets img {
+		width: 30%;
+	}
+
+	.access h3 {
+		font-size: 1.5em;
+	}
+
+	.gallery {
+		width: 70%;
+	}
+
+	.gallery img {
+		margin: 0.5%;
+		width: 31%;
+	}
+
+}
+
+/* Tablet (Between 768px - 992px)*/
+@media all and (min-width: 48em) and (max-width: 62em) {
+
+	body {
+		font-size: 95%; /* 15px */
+	}
+
+	.container {
+		width: 90%;
+		margin: 2% auto;
+		padding: 4%;
+		padding-top: 0;
+	}
+
+	.nav ul li a {
+		font-size: 100%;
+		margin-left: 0;
+	}
+
+	.headline {
+		padding-top: 0;
+	}
+
+
+	.headline h1 {
+		font-size: 3em;
+		margin-bottom: 0;
+	}
+
+
+	.col-3 {
+		width: 30%;
+		margin: 1.5%;
+	}
+
+	.col-3 h3 {
+			font-size: 2em;
+	}
+
+
+	.col-3 p {
+		width: 70%;
+		font-size: 1em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.col-3 a {
+		font-size: 95%;
+		border-radius: 6px;
+		margin: auto;
+	}
+
+
+
+	.access a {
+		font-size: 1.5em;
+		width: 40%;
+	}
+
+	.access h3 {
+		font-size: 1.5em;
+	}
+
+	.access .col-3 h3 {
+		margin: 0;
+	}
+
+	.access .col-3 p {
+		width: 100%;
+	}
+
+	.tickets ul {
+		width: 100%;
+	}
+
+	.tickets img {
+		width: 30%;
+	}
+
+	.tickets h3 {
+		font-size: 1.2em;
+	}
+
+	.tickets .actions {
+		width: 25%;
+	}
+
+	.gallery img {
+		margin: 0.5%;
+		width: 40%;
+	}
+
+	.gallery {
+		width: 80%;
+	}
+
+	.footer ul {
+		width: 70%;
+		float: right;
+	}
+
+	.footer ul li {
+		width: 40%;
+		margin-left: 1em;
+		margin-bottom: 1em;
+		float: left;
+	}
+
+	.footer .location {
+		margin-bottom: 4em;
+	}
+
+	.footer .social {
+		width: 40%;
+	}
+
+	.footer img {
+		width: 15%;
+	}
+
+	.footer a {
+		margin: 1.5%;
+	}
+
+
+}
+
+/* MOBILE (Smaller than 768px)*/
+@media all and (max-width: 47.9999em) {
+
+	body {
+		font-size: 60%; /* 14px */
+	}
+
+	.container {
+		width: 84%;
+		margin: auto;
+		padding: 5%;
+	}
+
+	.headline h1 {
+		font-size: 4em;
+	}
+
+	.nav ul {
+		margin: auto;
+		font-size: 1.2em;
+		display: none;
+		float: none;
+	}
+
+	.nav ul li {
+		float: none;
+		margin-left: 0;
+		text-align: center;
+		margin: 6%;
+	}
+
+  .nav img {
+		clear: both;
+  }
+
+
+	a.nav-toggle {
+		display: block;
+		clear: both;
+	}
+
+	.header img {
+		margin-top: 8em;
+		}
+
+	.about {
+		margin-top: 5%;
+		width: 85%;
+	}
+
+	.about p {
+		font-size: 1.8em;
+		line-height: 1.5em;
+		margin-bottom: 10%;
+	}
+
+	.faq {
+		margin: 0 auto;
+		width: 85%;
+		padding-bottom: 5%;
+	}
+
+	.faq ul li {
+		font-size: 2em;
+		line-height: 1.2em;
+		margin: 2%;
+	}
+
+	.faq h5 {
+		font-size: 0.9em;
+	}
+
+	.faq p {
+		font-size: 80%;
+	}
+
+	.faq .col-2 {
+		width: 80%;
+		float:left;
+	}
+
+	.tickets {
+		width: 85%;
+		padding: 0;
+	}
+
+	.tickets p {
+		font-size: 1.8em;
+		margin-bottom: 5%;
+		margin-top: 10%;
+	}
+
+	.tickets ul {
+		width: 100%;
+	}
+
+	.tickets .info {
+		float: left;
+		margin: 5%;
+		margin-right: 0;
+	}
+
+	.tickets img {
+		width: 100%;
+	}
+
+
+
+	.tickets h3, h4 {
+		font-size: 1.9em;
+		margin-top: 5%;
+	}
+
+	.tickets h5 {
+		font-size: 1.5em;
+	}
+
+	.tickets .actions {
+		width: 30%;
+		font-size: 1.8em;
+		text-align: center;
+		float: right;
+		margin-top: 5%;
+		margin-right: 5%;
+	}
+
+
+	.tickets .button {
+		display: block;
+		color: #000;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 1.8em;
+		border: 1px solid #000;
+		border-radius: 6px;
+		padding: 2%;
+		padding-left: 5%;
+		padding-right: 5%;
+		text-align: center;
+		margin: 0 auto;
+		width: 40%;
+	}
+
+	.col-3 {
+		display: block;
+		width: 90%;
+		margin-bottom: 10%;
+	}
+
+	.col-3 img {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.col-3 a {
+		border-radius: 6px;
+		font-size: 2em;
+		width: 60%;
+		padding: 0.5em;
+	}
+
+	.col-3 p {
+		margin: 0 auto;
+		width: 70%;
+		font-size: 1.8em;
+		line-height: 1.2em;
+		padding-bottom: 1em;
+	}
+
+	.access .col-3 {
+		width: 90%;
+		margin-top: 6%;
+	}
+
+	.access {
+		margin-top: 10%;
+		width: 85%;
+		padding: 0;
+	}
+
+	.access p {
+		font-size: 1.8em;
+		width: 100%;
+		line-height: 1.5em;
+	}
+
+	.access .col-3 h3 {
+		margin: 0;
+	}
+
+	.access a {
+		width: 40%;
+		border-radius: 5px;
+		font-size: 1.5em;
+	}
+
+	.access img {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+
+	.gallery {
+		width: 70%;
+		margin-top: 10%;
+		padding: 0;
+	}
+
+	.gallery img {
+		margin: 0.5%;
+		width: 100%;
+	}
+
+	.gallery h5 {
+		font-size: 1.8em;
+	}
+
+	.gallery h3 {
+		font-size: 3em;
+	}
+
+	.gallery a {
+		font-size: 1.5em;
+		border-radius: 6px;
+		padding: 3%;
+		width: 60%;
+	}
+
+	.footer {
+		font-size: 1.5em;
+		line-height: 1.2em;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.footer img {
+		display: block;
+		width: 40%;
+		padding: 4%;
+		clear: both;
+		padding-top: 15%;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+
+	.footer ul li {
+		width: 80%;
+		clear: both;
+		font-size: 1em;
+	}
+
+	.footer .social{
+		width: 80%;
+	}
+
+	.footer a {
+		margin: 5%;
+	}
+
+	.footer .email {
+		width: 80%;
+		margin: 0;
+		margin-bottom: 20%;
+		padding-right: 30%;
+	}
+
+
+}
+
+/* @FONT-FACE (Webfonts)
+===================================== */
+
+
+/*
+=====================================
+====== END SITE- SPECIFIC CSS =======
+=====================================
+*/
