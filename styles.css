@@ -211,6 +211,7 @@ asides, sidebars, footer, sub page-specific styling, etc.)
   background-color: white;
   width: 100%;
   clear: both;
+	z-index: 1;
 }
 
 .nav ul li a {
