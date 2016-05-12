@@ -639,7 +639,7 @@ select {
   padding: 0.5em 3.5em 0.5em 1em;
 
   /* reset */
-  margin: 0;
+  margin: 0 38em 0 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
