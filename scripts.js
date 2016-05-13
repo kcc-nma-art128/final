@@ -93,3 +93,25 @@ $(window).scroll(function() {
     $logo.removeClass("fixed");
   }
 });
+
+
+// SHOW/HIDE
+var $ = jQuery.noConflict();
+$(document).ready(function(){
+  $('#menubowls, #menufood').hide();
+		$('#a').click(function(){
+		$('#menudrinks').show();
+		$('#menubowls, #menufood').hide();
+		});
+
+		$('#b').click(function(){
+		$('#menubowls').show();
+		$('#menudrinks, #menufood').hide();
+		});
+
+		$('#c').click(function(){
+		$('#menufood').show();
+		$('#menudrinks, #menubowls').hide();
+        });
+
+});
