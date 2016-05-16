@@ -603,7 +603,14 @@ display: inline-block;
   margin:-3% 35% 5% 35%;
   padding: 0.25em 0 0 0;
 }
+.section03 .col3b h3{
+  text-align: left;
+  margin:-3% 0% 5% ;
 
+  padding-left: 4%;
+  background-color: none;
+
+}
 .section03 h4{
   font: 1em 'ITCAvantGardeStd-DemiCn',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   line-height: 1.5em;
