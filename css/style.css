@@ -528,7 +528,7 @@ width: 50%;
 .col02 i{
   font-size: 0.05em;
   position: relative;
-  top: 26px;
+  top: 2px;
   right: 16px;
 }
 
@@ -598,8 +598,9 @@ display: inline-block;
   font: 2.25em 'ITCAvantGardeStd-DemiCn',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   color: #b0b601;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
   background-color: #f6f5f0;
+  margin:-3% 35% 5% 35%;
   padding: 0.25em 0 0 0;
 }
 
