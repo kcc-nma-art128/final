@@ -598,9 +598,8 @@ display: inline-block;
   font: 2.25em 'ITCAvantGardeStd-DemiCn',Avant Garde, Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   color: #b0b601;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   background-color: #f6f5f0;
-  margin:-3% 65% 5% 0%;
   padding: 0.25em 0 0 0;
 }
 
